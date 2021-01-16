@@ -6,17 +6,20 @@ I had the idea awhile back to start keeping track of all the books I read. I dec
 
 ## Notes on Reading
 
-- I have tried to become more discerning and critical on what I spend my time reading. That being said, sometimes I just want to read a book (fiction, "bad", or otherwise) and I don't think there always needs to be some massive ROI calculated.
+- I have tried to become more discerning on what I spend my time reading. That being said, sometimes I just want to read a book (fiction, "bad", popular, or otherwise) and I don't think there always needs to be some massive ROI calculated.
 - Sometimes I will read a book a second time closely following the fist read-through.
 - Some books I will read over and over again, because they are that good and it helps refresh important ideas. A perfect example is [The War of Art](https://www.amazon.com/gp/product/1936891026) by Steven Pressfield.
 - Going meta. Reading about reading.
   - [Reading Better by Farnam Street](https://fs.blog/reading)
   - [How to Read a Book: The Classic Guide to Intelligent Reading](https://www.amazon.com/gp/product/0671212095)
+  - [Why Books Don't Work](https://andymatuschak.org/books/) by Andy Matuschak
 - How I have been choosing books to read lately...
   - Read books that have been around a long time and everybody agrees are great books.
     - Anything over 100 years old that is still widely read.
     - [The Great Books](https://fs.blog/2013/10/great-books) - Farnam Street
     - See Appendix A: A Recommended Reading List from "How to Read a Book" linked above.
+  - If somebody you have a lot of respect for or is super successful recommends a book (especially if the book is related to their area of expertise), take their word for it and read the book.
+    - Ex: Warren Buffet repeatedly recommends [The Intelligent Investor](https://www.amazon.com/dp/0060555661). I'll take Warren's word for it.
   - Follow people/podcasters on the internet who read a lot and have smart guests on their shows and look for trends. I get email newsletters from the below people and also listen to their podcasts once in awhile.
     - [The Tim Ferris Show](https://tim.blog/podcast/) and his website [Tim Ferris](https://tim.blog/)
       - Tim has been interviewing "top performers" and all around smart people for a long time and he always asks them about their "most-gifted" or recommended books. Their answers are also all compiled in his book [Tools of Titans](https://www.amazon.com/dp/1328683788). If a particular book is repeatedly mentioned by his guests I will probably read it.
@@ -38,4 +41,5 @@ I had the idea awhile back to start keeping track of all the books I read. I dec
 ## Notes on the Code
 
 - Initial code is just to log some simple stats to console. I am running the JavaScript file locally via nodejs.
+- I have not bothered checking for non-existent data or errors in many cases because I directly control the data. For example, I would never add a book I read to the list without a title and number of pages.
 - Future project idea would be to build a front-end application to display and interact with the data.

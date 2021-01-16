@@ -44,38 +44,35 @@ function printStats(year) {
       console.log("Books Read in Year " + year + ": ");
       // Prints the array because it looks better than a concatenated string in console.
       console.log(booksReadInYear);
-    }
-    else {
+    } else {
       console.log("Year provided does not have any data.");
     }
   }
-}
+};
 
 function getFirstYearRead(books) {
   let earliestYear = 9999;
-  for (let i = 0; i < books.length; i++) {
-    if (books[i].read.year === null || books[i].read.year === undefined ) {
-      // console.log("Null or Undefined");
+  books.forEach(el => {
+    // == will be truthy for null and undefined
+    if (el.read.year == null ) /* Do nothing */ ;
+    else if (el.read.year < earliestYear) {
+      earliestYear = el.read.year;
     }
-    else if (books[i].read.year < earliestYear) {
-      earliestYear = books[i].read.year;
-    }
-  }
+  });
   return earliestYear;
-}
+};
 
 function getLastYearRead(books) {
   let latestYear = 0;
-  for (let i = 0; i < books.length; i++) {
-    if (books[i].read.year === null || books[i].read.year === undefined ) {
-      // console.log("Null or Undefined");
+  books.forEach(el => {
+    // == will be truthy for null and undefined
+    if (el.read.year == null ) /* Do nothing */ ;
+    else if (el.read.year > latestYear) {
+      latestYear = el.read.year;
     }
-    else if (books[i].read.year > latestYear) {
-      latestYear = books[i].read.year;
-    }
-  }
+  });
   return latestYear;
-}
+};
 
 function getYearsReading() {
   // Returns an array containing number values for each year a book was read.
@@ -84,51 +81,47 @@ function getYearsReading() {
     yearsReading.push(i);
   }
   return yearsReading;
-}
+};
 
 function getTotalPagesRead(books) {
   let totalPages = 0;
-  for (let i = 0; i < books.length; i++) {
-    totalPages += books[i].pages;
-  }
+  books.forEach(el => totalPages += el.pages);
   return totalPages;
-}
+};
 
 function getPagesReadByYear(books, year) {
   let totalPagesForYear = 0;
   if (typeof(year) !== "number") {
     console.log("Year argument needs to be a number");
-  }
-  else {
-    for (let i = 0; i < books.length; i++) {
-      if (books[i].read.year === year) {
-        totalPagesForYear += books[i].pages;
+  } else {
+    books.forEach(el => {
+      if (el.read.year === year) {
+        totalPagesForYear += el.pages;
       }
-    }
+    });
   }
   return totalPagesForYear;
-}
+};
 
 function getBooksReadByYear(books, year) {
-  // Returns the title of all books read in a specified year.
+  // Returns the title, tagline (if it has one), and author of all books read in a specified year.
   let booksReadInYear = [];
   if (typeof(year) !== "number") {
     console.log("Year argument needs to be a number");
-  }
-  else {
-    for (let i = 0; i < books.length; i++) {
-      if (books[i].read.year === year) {
-        if (books[i].tagline === null || books[i].tagline === undefined) {
-          booksReadInYear.push(books[i].title + " by " + books[i].author);
-        }
-        else {
-          booksReadInYear.push(books[i].title + " - " + books[i].tagline + " by " + books[i].author);
+  } else {
+    books.forEach(el => {
+      if (el.read.year === year) {
+        // == will be truthy for null and undefined
+        if (el.tagline == null) {
+          booksReadInYear.push(el.title + " by " + el.author);
+        } else {
+          booksReadInYear.push(el.title + " - " + el.tagline + " by " + el.author);
         }
       }
-    }
+    });
   }
   return booksReadInYear;
-}
+};
 
 function getNumberOfBooksReadByYear(books, years) {
   // Returns an object containing key:value pairs for the "year":"number of books read" for every year a book was read
@@ -136,9 +129,8 @@ function getNumberOfBooksReadByYear(books, years) {
   years.forEach(el => {
     let booksRead = 0;
     for (let i = 0; i < books.length; i++) {
-      if (books[i].read.year === null || books[i].read.year === undefined ) {
-        // console.log("Null or Undefined");
-      }
+      // == will be truthy for null and undefined
+      if (books[i].read.year == null ) /* Do nothing */ ;
       else if (books[i].read.year === el) {
         booksRead += 1;
       }
@@ -146,4 +138,4 @@ function getNumberOfBooksReadByYear(books, years) {
     bookCountByYear[el] = booksRead;
   });
   return bookCountByYear;
-}
+};
