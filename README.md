@@ -40,6 +40,6 @@ I had the idea awhile back to start keeping track of all the books I read. I dec
 
 ## Notes on the Code
 
-- Initial code is just to log some simple stats to console. I am running the JavaScript file locally via nodejs.
-- I have not bothered checking for non-existent data or errors in many cases because I directly control the data. For example, I would never add a book I read to the list without a title and number of pages.
+- Initial code is just to log some simple stats to console. I am running the JavaScript file locally via nodejs (node printStats).
+- I added some tests to experiment with Jest but I have not bothered checking for non-existent data or errors in many cases at this point because I directly control the data. For example, I would never add a book I read to the list without a title and number of pages. Famous last words...
 - Future project idea would be to build a front-end application to display and interact with the data.
