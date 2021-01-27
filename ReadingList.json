@@ -212,6 +212,7 @@
     "genre": null,
     "tags": ["must-read", "motivation"],
     "read": {
+      "dates": [{"month": 10, "year": 2020}, {"month": null, "year": 2019}],
       "month": 10,
       "year": 2020,
       "stars": 5,
@@ -230,6 +231,7 @@
     "genre": "Self-Help",
     "tags": ["must-read", "motivation"],
     "read": {
+      "dates": [{"month": 10, "year": 2020}, {"month": null, "year": 2019}, {"month": 2, "year": 2015}],
       "month": 10,
       "year": 2020,
       "stars": null,
@@ -284,6 +286,7 @@
     "genre": null,
     "tags": [],
     "read": {
+      "dates": [{"month": 8, "year": 2020}, {"month": 2, "year": 2015}],
       "month": 8,
       "year": 2020,
       "stars": null,
@@ -379,6 +382,7 @@
     "genre": "Psychology",
     "tags": ["psychology"],
     "read": {
+      "dates": [{"month": 4, "year": 2020}, {"month": 6, "year": 2018}],
       "month": 4,
       "year": 2020,
       "stars": 5,
