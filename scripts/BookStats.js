@@ -31,7 +31,7 @@ function getYearsReading(firstYear, lastYear) {
   // ! Does not handle gaps in years
   // Returns an array containing number values for each year a book was read.
   const yearsReading = [];
-  for (let i = firstYear; i <= lastYear; i++) {
+  for (let i = parseInt(firstYear); i <= lastYear; i++) {
     yearsReading.push(i);
   }
   return yearsReading;
