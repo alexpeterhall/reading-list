@@ -55,4 +55,7 @@ describe('All Years Read Suite', () => {
   test('Returned array contains all expected values between provided numbers', () => {
     expect(BookStats.getYearsReading(2010, 2020)).toEqual(yearsArray);
   });
+  test('Returned array contains all expected values between provided strings', () => {
+    expect(BookStats.getYearsReading('2010', '2020')).toEqual(yearsArray);
+  });
 });
