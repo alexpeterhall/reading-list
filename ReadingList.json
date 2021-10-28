@@ -1,5 +1,59 @@
 {
   "books": [{
+      "title": "The Pragmatic Programmer",
+      "tagline": "Your Journey to Mastery",
+      "author": ["David Thomas", "Andrew Hunt"],
+      "year_published": 2020,
+      "edition": 2,
+      "ISBN10": "0135957052",
+      "ISBN13": "9780135957059",
+      "pages": 306,
+      "url": "https://www.amazon.com/dp/0135957052",
+      "genre": "Programming",
+      "tags": ["programming", "software engineering"],
+      "read": {
+        "month": null,
+        "year": 2021,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "Clean Code",
+      "tagline": "A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year_published": 2009,
+      "edition": 1,
+      "ISBN10": "0132350882",
+      "ISBN13": "9780132350884",
+      "pages": 315,
+      "url": "https://www.amazon.com/dp/0132350882",
+      "genre": "Programming",
+      "tags": ["programming", "software engineering", "clean code"],
+      "read": {
+        "month": null,
+        "year": 2021,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "How to Live",
+      "tagline": "27 conflicting answers and one weird conclusion",
+      "author": "Derek Sivers",
+      "year_published": 2021,
+      "edition": 1,
+      "ISBN10": "1991152305",
+      "ISBN13": "9781991152305",
+      "pages": 115,
+      "url": "https://sive.rs/h",
+      "genre": "Self-Help",
+      "tags": ["self-help", "philosophy"],
+      "read": {
+        "month": 10,
+        "year": 2021,
+        "stars": 5,
+        "review": null
+      }
+    }, {
       "title": "Inner Engineering",
       "tagline": "A Yogi's Guide to Joy",
       "author": "Sadhguru",
@@ -88,7 +142,7 @@
       "genre": "Productivity",
       "tags": ["productivity", "investing", "leadership", "philosophy"],
       "read": {
-        "month": null,
+        "month": 10,
         "year": 2021,
         "stars": null,
         "review": null
@@ -105,7 +159,7 @@
       "pages": 665,
       "url": "https://www.amazon.com/dp/1491952024",
       "genre": "Programming",
-      "tags": ["javascript", "programming", "coding", "computer science", "web development"],
+      "tags": ["javascript", "programming", "software engineering", "web development"],
       "read": {
         "month": null,
         "year": 2021,
@@ -279,7 +333,7 @@
       "coverImage": null,
       "url": "https://www.amazon.com/dp/0596517742",
       "genre": "Programming",
-      "tags": ["javascript", "programming", "coding", "computer science"],
+      "tags": ["javascript", "programming", "software engineering"],
       "read": {
         "month": 11,
         "year": 2020,
@@ -346,6 +400,9 @@
       "tags": ["must-read", "motivation"],
       "read": {
         "dates": [{
+          "month": 10,
+          "year": 2021
+        }, {
           "month": 10,
           "year": 2020
         }, {
