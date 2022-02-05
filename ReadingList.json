@@ -1,5 +1,261 @@
 {
   "books": [{
+      "title": "Zen Mind, Beginner's Mind",
+      "tagline": "Informal Talks on Zen Meditation and Practice",
+      "author": "Shunryu Suzuki",
+      "year_published": 1970,
+      "edition": 1,
+      "ISBN10": "1611808413",
+      "ISBN13": "9781611808414",
+      "pages": 148,
+      "url": "https://www.amazon.com/dp/1611808413",
+      "genre": "Buddhism",
+      "tags": ["buddhism", "mindfulness", "zen", "meditation"],
+      "read": {
+        "month": 2,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "You Are Here",
+      "tagline": "Discovering the Magic of the Present Moment",
+      "author": "Thich Nhat Hanh",
+      "year_published": 2001,
+      "edition": 1,
+      "ISBN10": "1590308387",
+      "ISBN13": "9781590308387",
+      "pages": 138,
+      "url": "https://www.amazon.com/dp/1590308387",
+      "genre": "Buddhism",
+      "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
+      "read": {
+        "month": 2,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "The Secrets of Power, Mastery, and Truth",
+      "tagline": "The Best of William George Jordan",
+      "author": ["Brett McKay", "Kate McKay"],
+      "year_published": 2019,
+      "edition": 1,
+      "ISBN10": "0999322215",
+      "ISBN13": "9780999322215",
+      "pages": 89,
+      "url": "https://store.artofmanliness.com/collections/books/products/the-secrets-to-power-mastery-and-truth",
+      "genre": "Philosophy",
+      "tags": ["philosophy", "wisdom"],
+      "read": {
+        "month": 2,
+        "year": 2022,
+        "stars": 5,
+        "review": null
+      }
+    }, {
+      "title": "Why Buddhism is True",
+      "tagline": "The Science and Philosophy of Meditation and Enlightenment",
+      "author": "Robert Wright",
+      "year_published": 2017,
+      "edition": 1,
+      "ISBN10": "1439195463",
+      "ISBN13": "9781439195458",
+      "pages": 301,
+      "url": "https://www.amazon.com/dp/1439195463",
+      "genre": "Buddhism",
+      "tags": ["buddhism", "meditation", "self-help", "religion", "psychology"],
+      "read": {
+        "month": 1,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "Life is Disappointing",
+      "tagline": "And Other Inspiring Thoughts",
+      "author": "Matt Bellace",
+      "year_published": 2021,
+      "edition": 1,
+      "ISBN10": "1954332225",
+      "ISBN13": "9781954332225",
+      "pages": 203,
+      "url": "https://www.amazon.com/dp/195433222X",
+      "genre": "Self-Help",
+      "tags": ["self-help", "psychology"],
+      "read": {
+        "month": 1,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "The Heart of the Buddha's Teaching",
+      "tagline": "Transforming Suffering into Peace, Joy, and Liberation",
+      "author": "Thich Nhat Hanh",
+      "year_published": 1999,
+      "edition": 1,
+      "ISBN10": "0767903692",
+      "ISBN13": "9780767903691",
+      "pages": 275,
+      "url": "https://www.amazon.com/gp/0767903692",
+      "genre": "Buddhism",
+      "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
+      "read": {
+        "month": 1,
+        "year": 2022,
+        "stars": 5,
+        "review": null
+      }
+    }, {
+      "title": "How to Raise Successful People",
+      "tagline": "Simple Lessons to Help Your Child Become Self-Driven, Respectful, and Resilient",
+      "author": "Esther Wojcicki",
+      "year_published": 2020,
+      "edition": 1,
+      "ISBN10": "0358298717",
+      "ISBN13": "9780358298717",
+      "pages": 273,
+      "url": "https://www.amazon.com/dp/0358298717",
+      "genre": "Parenting",
+      "tags": ["parenting", "psychology"],
+      "read": {
+        "month": 1,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "The Clean Coder",
+      "tagline": "A Code of Conduct for Professional Programmers",
+      "author": "Robert C. Martin",
+      "year_published": 2011,
+      "edition": 1,
+      "ISBN10": "0137081073",
+      "ISBN13": "9780137081073",
+      "pages": 204,
+      "url": "https://www.amazon.com/dp/0132350882",
+      "genre": "Programming",
+      "tags": ["programming", "software engineering", "clean code", "professionalism"],
+      "read": {
+        "month": 1,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "The Daily Laws",
+      "tagline": "366 Meditations on Power, Seduction, Mastery, Strategy, and Human Nature",
+      "author": "Robert Greene",
+      "year_published": 2021,
+      "edition": 1,
+      "ISBN10": "0593299213",
+      "ISBN13": "9780593299210",
+      "pages": 453,
+      "url": "https://www.amazon.com/dp/0593299213",
+      "genre": "Philosophy",
+      "tags": ["self-help", "philosophy", "strategy", "wisdom"],
+      "read": {
+        "month": 11,
+        "year": 2021,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "A Man at Arms",
+      "tagline": null,
+      "author": ["Steven Pressfield"],
+      "year_published": 2021,
+      "edition": 1,
+      "ISBN10": "0393540979",
+      "ISBN13": "9780393540970",
+      "pages": 317,
+      "url": "https://www.amazon.com/dp/0393540979",
+      "genre": "Fiction",
+      "tags": ["war", "rome"],
+      "read": {
+        "dates": [{
+          "month": 12,
+          "year": 2021
+        }],
+        "month": 12,
+        "year": 2021,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "When Things Fall Apart",
+      "tagline": "Heart Advice for Difficult Times",
+      "author": ["Pema Chodron"],
+      "year_published": 1997,
+      "edition": 2,
+      "ISBN10": "1611803438",
+      "ISBN13": "9781611803433",
+      "pages": 146,
+      "url": "https://www.amazon.com/dp/1611803438",
+      "genre": "Self-Help",
+      "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
+      "read": {
+        "dates": [{
+          "month": 1,
+          "year": 2022
+        }, {
+          "month": 11,
+          "year": 2021
+        }],
+        "month": 11,
+        "year": 2021,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "Hell Yeah or No",
+      "tagline": "what's worth doing",
+      "author": "Derek Sivers",
+      "year_published": 2020,
+      "edition": 1,
+      "ISBN10": "1988575063",
+      "ISBN13": "9781988575063",
+      "pages": 131,
+      "url": "https://sive.rs/n",
+      "genre": "Self-Help",
+      "tags": ["self-help", "philosophy"],
+      "read": {
+        "dates": [{
+          "month": 12,
+          "year": 2021
+        }],
+        "month": 12,
+        "year": 2021,
+        "stars": 5,
+        "review": null
+      }
+    }, {
+      "title": "How to Live",
+      "tagline": "27 conflicting answers and one weird conclusion",
+      "author": "Derek Sivers",
+      "year_published": 2021,
+      "edition": 1,
+      "ISBN10": "1991152305",
+      "ISBN13": "9781991152305",
+      "pages": 115,
+      "url": "https://sive.rs/h",
+      "genre": "Self-Help",
+      "tags": ["self-help", "philosophy"],
+      "read": {
+        "dates": [{
+          "month": 11,
+          "year": 2021
+        }, {
+          "month": 10,
+          "year": 2021
+        }],
+        "month": 10,
+        "year": 2021,
+        "stars": 5,
+        "review": null
+      }
+    }, {
       "title": "The Pragmatic Programmer",
       "tagline": "Your Journey to Mastery",
       "author": ["David Thomas", "Andrew Hunt"],
@@ -12,7 +268,7 @@
       "genre": "Programming",
       "tags": ["programming", "software engineering"],
       "read": {
-        "month": null,
+        "month": 11,
         "year": 2021,
         "stars": null,
         "review": null
@@ -30,27 +286,9 @@
       "genre": "Programming",
       "tags": ["programming", "software engineering", "clean code"],
       "read": {
-        "month": null,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "How to Live",
-      "tagline": "27 conflicting answers and one weird conclusion",
-      "author": "Derek Sivers",
-      "year_published": 2021,
-      "edition": 1,
-      "ISBN10": "1991152305",
-      "ISBN13": "9781991152305",
-      "pages": 115,
-      "url": "https://sive.rs/h",
-      "genre": "Self-Help",
-      "tags": ["self-help", "philosophy"],
-      "read": {
         "month": 10,
         "year": 2021,
-        "stars": 5,
+        "stars": null,
         "review": null
       }
     }, {
@@ -66,6 +304,13 @@
       "genre": "Self-Help",
       "tags": ["self-help", "spirituality", "yoga", "philosophy"],
       "read": {
+        "dates": [{
+          "month": 12,
+          "year": 2021
+        }, {
+          "month": 6,
+          "year": 2021
+        }],
         "month": 6,
         "year": 2021,
         "stars": null,
