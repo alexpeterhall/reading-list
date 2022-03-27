@@ -1,5 +1,59 @@
 {
   "books": [{
+      "title": "Breath! You Are Alive",
+      "tagline": "Sutra on the Full Awareness of Breathing",
+      "author": "Thich Nhat Hanh",
+      "year_published": 1996,
+      "edition": 1,
+      "ISBN10": "1888375841",
+      "ISBN13": "9781888375848",
+      "pages": 147,
+      "url": "https://www.amazon.com/dp/1888375841",
+      "genre": "Buddhism",
+      "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
+      "read": {
+        "month": 3,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "Enchridon",
+      "tagline": null,
+      "author": "Epictetus",
+      "year_published": 2004,
+      "edition": 1,
+      "ISBN10": "0486433595",
+      "ISBN13": "9780486433592",
+      "pages": 56,
+      "url": "https://www.amazon.com/dp/0486433595",
+      "genre": "Philosophy",
+      "tags": ["philosophy", "stoicism"],
+      "read": {
+        "month": 2,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
+      "title": "Up From Slavery",
+      "tagline": null,
+      "author": "Booker T. Washington",
+      "year_published": 1901,
+      "edition": 1,
+      "ISBN10": "0486287386",
+      "ISBN13": "9780486287386",
+      "pages": 157,
+      "url": "https://www.amazon.com/dp/0486287386",
+      "genre": "Biography",
+      "tags": ["slavery", "history", "education", "america"],
+      "read": {
+        "month": 2,
+        "year": 2022,
+        "stars": null,
+        "review": null
+      }
+    }, {
       "title": "Zen Mind, Beginner's Mind",
       "tagline": "Informal Talks on Zen Meditation and Practice",
       "author": "Shunryu Suzuki",
@@ -102,6 +156,13 @@
       "genre": "Buddhism",
       "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
       "read": {
+        "dates": [{
+          "month": 3,
+          "year": 2022
+        }, {
+          "month": 1,
+          "year": 2022
+        }],
         "month": 1,
         "year": 2022,
         "stars": 5,
@@ -197,6 +258,9 @@
       "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
       "read": {
         "dates": [{
+          "month": 2,
+          "year": 2022
+        }, {
           "month": 1,
           "year": 2022
         }, {
@@ -210,7 +274,7 @@
       }
     }, {
       "title": "Hell Yeah or No",
-      "tagline": "what's worth doing",
+      "tagline": "What's Worth Doing",
       "author": "Derek Sivers",
       "year_published": 2020,
       "edition": 1,

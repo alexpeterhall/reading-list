@@ -1,16 +1,16 @@
 'use strict';
 const BookStats = require('./scripts/BookStats'),
-      READING_LIST = require('./ReadingList.json'),
-      BOOKS = READING_LIST.books,
-      firstYear = BookStats.getFirstYearRead(BOOKS),
-      lastYear = BookStats.getLastYearRead(BOOKS),
-      yearsReading = BookStats.getYearsReading(firstYear, lastYear),
-      totalYearsReading = lastYear - firstYear,
-      totalPagesRead = BookStats.getTotalPagesRead(BOOKS),
-      numberOfBooksReadByYear = BookStats.getNumberOfBooksReadByYear(BOOKS, yearsReading),
-      averageYear = totalPagesRead / totalYearsReading,
-      averageWeek = totalPagesRead / (totalYearsReading * 52),
-      averageDay = totalPagesRead / (totalYearsReading * 365);
+  READING_LIST = require('./ReadingList.json'),
+  BOOKS = READING_LIST.books,
+  firstYear = BookStats.getFirstYearRead(BOOKS),
+  lastYear = BookStats.getLastYearRead(BOOKS),
+  yearsReading = BookStats.getYearsReading(firstYear, lastYear),
+  totalYearsReading = lastYear - firstYear,
+  totalPagesRead = BookStats.getTotalPagesRead(BOOKS),
+  numberOfBooksReadByYear = BookStats.getNumberOfBooksReadByYear(BOOKS, yearsReading),
+  averageYear = totalPagesRead / totalYearsReading,
+  averageWeek = totalPagesRead / (totalYearsReading * 52),
+  averageDay = totalPagesRead / (totalYearsReading * 365);
 
 function printStats(year) {
   console.log('Total Books Read: ' + BOOKS.length);
@@ -40,7 +40,7 @@ function printStats(year) {
       console.log('Year provided does not have any data.');
     }
   }
-};
+}
 
 // Provide optional number year for additional stats on a particular year.
-printStats(2020);
+printStats(2022);
