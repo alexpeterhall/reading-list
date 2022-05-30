@@ -84,6 +84,13 @@
       "genre": "Buddhism",
       "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
       "read": {
+        "dates": [{
+          "month": 4,
+          "year": 2022
+        }, {
+          "month": 2,
+          "year": 2022
+        }],
         "month": 2,
         "year": 2022,
         "stars": null,
@@ -258,6 +265,9 @@
       "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
       "read": {
         "dates": [{
+          "month": 5,
+          "year": 2022
+        }, {
           "month": 2,
           "year": 2022
         }, {
@@ -605,6 +615,13 @@
       "genre": "Self-help",
       "tags": ["self-help", "meditation", "mindfulness", "buddhism", "philosophy"],
       "read": {
+        "dates": [{
+          "month": 3,
+          "year": 2022
+        }, {
+          "month": 12,
+          "year": 2020
+        }],
         "month": 12,
         "year": 2020,
         "stars": 5,
