@@ -1,15 +1,21 @@
 {
+  "author": "Alex Hall",
+  "license": "ISC",
   "name": "reading-list",
   "version": "1.0.0",
   "description": "A mostly up to date list of books I've recently read in JSON format and some basic stats.",
-  "main": "/printStats.js",
+  "main": "/printStats.ts",
   "directories": {
     "scripts": "scripts",
-    "test": "tests"
+    "test": "tests",
+    "types": "types"
   },
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@types/node": "^18.11.9",
+    "jest": "^29.2.2"
   },
   "jest": {
     "verbose": true
@@ -21,8 +27,6 @@
     "type": "git",
     "url": "git+https://github.com/aroxx/reading-list.git"
   },
-  "author": "Alex Hall",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/aroxx/reading-list/issues"
   },
