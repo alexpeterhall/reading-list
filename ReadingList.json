@@ -1,2354 +1,2318 @@
-{
-  "books": [{
-      "title": "Breath! You Are Alive",
-      "tagline": "Sutra on the Full Awareness of Breathing",
-      "author": "Thich Nhat Hanh",
-      "year_published": 1996,
-      "edition": 1,
-      "ISBN10": "1888375841",
-      "ISBN13": "9781888375848",
-      "pages": 147,
-      "url": "https://www.amazon.com/dp/1888375841",
-      "genre": "Buddhism",
-      "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
-      "read": {
+[{
+    "title": "Sapiens",
+    "tagline": "A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "0062316110",
+    "ISBN13": "9780062316110",
+    "pages": 416,
+    "url": "https://www.amazon.com/dp/0062316117",
+    "genre": "Science",
+    "tags": ["science", "history", "evolution", "anthropology"],
+    "dates_read": [{
+      "month": 8,
+      "year": 2022
+    }],
+    "stars": 5,
+    "review": null
+  }, {
+    "title": "The Wise Heart",
+    "tagline": "A Guide to the Universal Teachings of Buddhist Psychology",
+    "author": "Jack Kornfield",
+    "year_published": 2009,
+    "edition": 1,
+    "ISBN10": "0553382330",
+    "ISBN13": "9780553382334",
+    "pages": 402,
+    "url": "https://www.amazon.com/dp/0553382330",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "self-help", "meditation", "psychology", "spirituality"],
+    "dates_read": [{
+      "month": 7,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Anger",
+    "tagline": "Wisdom for Cooling the Flames",
+    "author": "Thich Nhat Hanh",
+    "year_published": 2002,
+    "edition": 1,
+    "ISBN10": "1573229377",
+    "ISBN13": "9781573229371",
+    "pages": 227,
+    "url": "https://www.amazon.com/dp/1573229377",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "self-help"],
+    "dates_read": [{
+      "month": 7,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Breath! You Are Alive",
+    "tagline": "Sutra on the Full Awareness of Breathing",
+    "author": "Thich Nhat Hanh",
+    "year_published": 1996,
+    "edition": 1,
+    "ISBN10": "1888375841",
+    "ISBN13": "9781888375848",
+    "pages": 147,
+    "url": "https://www.amazon.com/dp/1888375841",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
+    "dates_read": [{
+      "month": 3,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Enchridon",
+    "tagline": null,
+    "author": "Epictetus",
+    "year_published": 2004,
+    "edition": 1,
+    "ISBN10": "0486433595",
+    "ISBN13": "9780486433592",
+    "pages": 56,
+    "url": "https://www.amazon.com/dp/0486433595",
+    "genre": "Philosophy",
+    "tags": ["philosophy", "stoicism"],
+    "dates_read": [{
+      "month": 2,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Up From Slavery",
+    "tagline": null,
+    "author": "Booker T. Washington",
+    "year_published": 1901,
+    "edition": 1,
+    "ISBN10": "0486287386",
+    "ISBN13": "9780486287386",
+    "pages": 157,
+    "url": "https://www.amazon.com/dp/0486287386",
+    "genre": "Biography",
+    "tags": ["slavery", "history", "education", "america"],
+    "dates_read": [{
+      "month": 2,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Zen Mind, Beginner's Mind",
+    "tagline": "Informal Talks on Zen Meditation and Practice",
+    "author": "Shunryu Suzuki",
+    "year_published": 1970,
+    "edition": 1,
+    "ISBN10": "1611808413",
+    "ISBN13": "9781611808414",
+    "pages": 148,
+    "url": "https://www.amazon.com/dp/1611808413",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "zen", "meditation"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2022
+    }, {
+      "month": 2,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "You Are Here",
+    "tagline": "Discovering the Magic of the Present Moment",
+    "author": "Thich Nhat Hanh",
+    "year_published": 2001,
+    "edition": 1,
+    "ISBN10": "1590308387",
+    "ISBN13": "9781590308387",
+    "pages": 138,
+    "url": "https://www.amazon.com/dp/1590308387",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
+    "dates_read": [{
+      "month": 4,
+      "year": 2022
+    }, {
+      "month": 2,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Secrets of Power, Mastery, and Truth",
+    "tagline": "The Best of William George Jordan",
+    "author": ["Brett McKay", "Kate McKay"],
+    "year_published": 2019,
+    "edition": 1,
+    "ISBN10": "0999322215",
+    "ISBN13": "9780999322215",
+    "pages": 89,
+    "url": "https://store.artofmanliness.com/collections/books/products/the-secrets-to-power-mastery-and-truth",
+    "genre": "Philosophy",
+    "tags": ["philosophy", "wisdom"],
+    "dates_read": [{
+      "month": 2,
+      "year": 2022
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Why Buddhism is True",
+    "tagline": "The Science and Philosophy of Meditation and Enlightenment",
+    "author": "Robert Wright",
+    "year_published": 2017,
+    "edition": 1,
+    "ISBN10": "1439195463",
+    "ISBN13": "9781439195458",
+    "pages": 301,
+    "url": "https://www.amazon.com/dp/1439195463",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "meditation", "self-help", "religion", "psychology"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Life is Disappointing",
+    "tagline": "And Other Inspiring Thoughts",
+    "author": "Matt Bellace",
+    "year_published": 2021,
+    "edition": 1,
+    "ISBN10": "1954332225",
+    "ISBN13": "9781954332225",
+    "pages": 203,
+    "url": "https://www.amazon.com/dp/195433222X",
+    "genre": "Self-Help",
+    "tags": ["self-help", "psychology"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Heart of the Buddha's Teaching",
+    "tagline": "Transforming Suffering into Peace, Joy, and Liberation",
+    "author": "Thich Nhat Hanh",
+    "year_published": 1999,
+    "edition": 1,
+    "ISBN10": "0767903692",
+    "ISBN13": "9780767903691",
+    "pages": 275,
+    "url": "https://www.amazon.com/gp/0767903692",
+    "genre": "Buddhism",
+    "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2022
+    }, {
+      "month": 3,
+      "year": 2022
+    }, {
+      "month": 1,
+      "year": 2022
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "How to Raise Successful People",
+    "tagline": "Simple Lessons to Help Your Child Become Self-Driven, Respectful, and Resilient",
+    "author": "Esther Wojcicki",
+    "year_published": 2020,
+    "edition": 1,
+    "ISBN10": "0358298717",
+    "ISBN13": "9780358298717",
+    "pages": 273,
+    "url": "https://www.amazon.com/dp/0358298717",
+    "genre": "Parenting",
+    "tags": ["parenting", "psychology"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Clean Coder",
+    "tagline": "A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "0137081073",
+    "ISBN13": "9780137081073",
+    "pages": 204,
+    "url": "https://www.amazon.com/dp/0132350882",
+    "genre": "Programming",
+    "tags": ["programming", "software engineering", "clean code", "professionalism"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Daily Laws",
+    "tagline": "366 Meditations on Power, Seduction, Mastery, Strategy, and Human Nature",
+    "author": "Robert Greene",
+    "year_published": 2021,
+    "edition": 1,
+    "ISBN10": "0593299213",
+    "ISBN13": "9780593299210",
+    "pages": 453,
+    "url": "https://www.amazon.com/dp/0593299213",
+    "genre": "Philosophy",
+    "tags": ["self-help", "philosophy", "strategy", "wisdom"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Man at Arms",
+    "tagline": null,
+    "author": ["Steven Pressfield"],
+    "year_published": 2021,
+    "edition": 1,
+    "ISBN10": "0393540979",
+    "ISBN13": "9780393540970",
+    "pages": 317,
+    "url": "https://www.amazon.com/dp/0393540979",
+    "genre": "Fiction",
+    "tags": ["war", "rome"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "When Things Fall Apart",
+    "tagline": "Heart Advice for Difficult Times",
+    "author": ["Pema Chodron"],
+    "year_published": 1997,
+    "edition": 2,
+    "ISBN10": "1611803438",
+    "ISBN13": "9781611803433",
+    "pages": 146,
+    "url": "https://www.amazon.com/dp/1611803438",
+    "genre": "Self-Help",
+    "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2022
+    }, {
+      "month": 5,
+      "year": 2022
+    }, {
+      "month": 2,
+      "year": 2022
+    }, {
+      "month": 1,
+      "year": 2022
+    }, {
+      "month": 11,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Hell Yeah or No",
+    "tagline": "What's Worth Doing",
+    "author": "Derek Sivers",
+    "year_published": 2020,
+    "edition": 1,
+    "ISBN10": "1988575063",
+    "ISBN13": "9781988575063",
+    "pages": 131,
+    "url": "https://sive.rs/n",
+    "genre": "Self-Help",
+    "tags": ["self-help", "philosophy"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2021
+    }],
+    "stars": 5,
+    "review": null
+  }, {
+    "title": "How to Live",
+    "tagline": "27 conflicting answers and one weird conclusion",
+    "author": "Derek Sivers",
+    "year_published": 2021,
+    "edition": 1,
+    "ISBN10": "1991152305",
+    "ISBN13": "9781991152305",
+    "pages": 115,
+    "url": "https://sive.rs/h",
+    "genre": "Self-Help",
+    "tags": ["self-help", "philosophy"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2021
+    }, {
+      "month": 10,
+      "year": 2021
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "The Pragmatic Programmer",
+    "tagline": "Your Journey to Mastery",
+    "author": ["David Thomas", "Andrew Hunt"],
+    "year_published": 2020,
+    "edition": 2,
+    "ISBN10": "0135957052",
+    "ISBN13": "9780135957059",
+    "pages": 306,
+    "url": "https://www.amazon.com/dp/0135957052",
+    "genre": "Programming",
+    "tags": ["programming", "software engineering"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Clean Code",
+    "tagline": "A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "year_published": 2009,
+    "edition": 1,
+    "ISBN10": "0132350882",
+    "ISBN13": "9780132350884",
+    "pages": 315,
+    "url": "https://www.amazon.com/dp/0132350882",
+    "genre": "Programming",
+    "tags": ["programming", "software engineering", "clean code"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Inner Engineering",
+    "tagline": "A Yogi's Guide to Joy",
+    "author": "Sadhguru",
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "0812997794",
+    "ISBN13": "9780812997798",
+    "pages": 262,
+    "url": "https://www.amazon.com/dp/product/0812997794",
+    "genre": "Self-Help",
+    "tags": ["self-help", "spirituality", "yoga", "philosophy"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2021
+    }, {
+      "month": 6,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "The Choice",
+    "tagline": "Embrace the Possible",
+    "author": "Dr. Edith Eva Eger",
+    "year_published": 2018,
+    "edition": 1,
+    "ISBN10": "150113079X",
+    "ISBN13": "9781501130786",
+    "pages": 272,
+    "url": "https://www.amazon.com/dp/product/150113079X",
+    "genre": "Self-Help",
+    "tags": ["self-help", "psychology", "life", "death"],
+    "dates_read": [{
+      "month": 4,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "The Prophet",
+    "tagline": null,
+    "author": "Kahlil Gibran",
+    "year_published": 1923,
+    "edition": 1,
+    "ISBN10": "1949982327",
+    "ISBN13": "9781949982329",
+    "pages": 89,
+    "url": "https://www.amazon.com/dp/product/1949982327",
+    "genre": "Philosophy",
+    "tags": ["philosophy"],
+    "dates_read": [{
+      "month": 4,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "Emotional Intelligence 2.0",
+    "tagline": null,
+    "author": ["Travis Bradberry", "Jean Greaves"],
+    "year_published": 2009,
+    "edition": 1,
+    "ISBN10": "0974320625",
+    "ISBN13": "9780974320625",
+    "pages": 250,
+    "url": "https://www.amazon.com/dp/0974320625",
+    "genre": "Self-Help",
+    "tags": ["self-help", "eq", "psychology"],
+    "dates_read": [{
+      "month": 3,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "Tools of Titans",
+    "tagline": "The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers",
+    "author": "Timothy Ferriss",
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "1328683788",
+    "ISBN13": "9781328683786",
+    "pages": 686,
+    "url": "https://www.amazon.com/dp/1328683788",
+    "genre": "Productivity",
+    "tags": ["productivity", "investing", "leadership", "philosophy"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "JavaScript: The Definitive Guide",
+    "tagline": "Master the World's Most-Used Programming Language",
+    "author": "David Flanagan",
+    "year_published": 2020,
+    "edition": 7,
+    "ISBN10": "1491952024",
+    "ISBN13": "9781491952023",
+    "pages": 665,
+    "url": "https://www.amazon.com/dp/1491952024",
+    "genre": "Programming",
+    "tags": ["javascript", "programming", "software engineering", "web development"],
+    "dates_read": [{
+      "month": null,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "Walden and Civil Disobedience",
+    "tagline": null,
+    "author": "Henry David Thoreau",
+    "year_published": 1854,
+    "edition": 1,
+    "ISBN10": "0451532163",
+    "ISBN13": "9780451532169",
+    "pages": 316,
+    "url": "https://www.amazon.com/gp/product/0451532163",
+    "genre": "Philosophy",
+    "tags": ["philosophy", "politics", "minimalism"],
+    "dates_read": [{
+      "month": 3,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  },
+  {
+    "title": "White Fang",
+    "tagline": null,
+    "author": "Jack London",
+    "year_published": 1906,
+    "edition": 1,
+    "ISBN10": "1948132257",
+    "ISBN13": "9781948132251",
+    "pages": 242,
+    "url": "https://www.amazon.com/dp/1948132257",
+    "genre": "Fiction",
+    "tags": ["must-dates_read"],
+    "dates_read": [{
+      "month": 2,
+      "year": 2021
+    }],
+    "stars": 5,
+    "review": null
+  },
+  {
+    "title": "Surely You’re Joking, Mr. Feynman!",
+    "tagline": "Adventures of a Curious Character",
+    "author": "Richard P. Feynman",
+    "year_published": 1985,
+    "edition": 1,
+    "ISBN10": "0393355624",
+    "ISBN13": "9780393355628",
+    "pages": 391,
+    "url": "https://www.amazon.com/dp/0393355624",
+    "genre": "Autobiography",
+    "tags": ["autobiography", "science", "humor"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2021
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Peaceful Parent, Happy Siblings",
+    "tagline": "How to Stop the Fighting and Raise Friends for Life",
+    "author": "Dr. Laura Markham",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "0399168451",
+    "ISBN13": "9780399168451",
+    "pages": 352,
+    "url": "https://www.amazon.com/dp/0399168451",
+    "genre": "Parenting",
+    "tags": ["parenting", "psychology"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2021
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Four Agreements",
+    "tagline": "A Practical Guide to Personal Freedom (A Toltec Wisdom Book)",
+    "author": "Don Miguel Ruiz",
+    "year_published": 1997,
+    "edition": 1,
+    "ISBN10": "1878424310",
+    "ISBN13": "9781878424310",
+    "ASIN": "1878424319",
+    "pages": 160,
+    "url": "https://www.amazon.com/dp/1878424319/",
+    "genre": "Self-Help",
+    "tags": ["self-help", "toltec", "mindfulness", "philosophy"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2020
+    }],
+    "stars": 4,
+    "review": null
+
+  },
+  {
+    "title": "The Bhagavad Gita",
+    "tagline": null,
+    "author": "Eknath Easwaran",
+    "year_published": 2007,
+    "edition": 2,
+    "ISBN10": "1586380192",
+    "ISBN13": "9781586380199",
+    "pages": 296,
+    "url": "https://www.amazon.com/dp/1586380192/",
+    "genre": "Spiritual",
+    "tags": ["spirituality", "hinduism"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2020
+    }],
+    "stars": 5,
+    "review": null
+
+  },
+  {
+    "title": "Wherever You Go, There You Are",
+    "tagline": "Mindfulness Meditation in Everyday Life",
+    "author": "Jon Kabat-Zinn",
+    "year_published": 1994,
+    "edition": 1,
+    "ISBN10": "1401307783",
+    "ISBN13": "9781401307783",
+    "ASIN": "1401307787",
+    "pages": 304,
+    "url": "https://www.amazon.com/dp/1401307787/",
+    "genre": "Self-help",
+    "tags": ["self-help", "meditation", "mindfulness", "buddhism", "philosophy"],
+    "dates_read": [{
         "month": 3,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Enchridon",
-      "tagline": null,
-      "author": "Epictetus",
-      "year_published": 2004,
-      "edition": 1,
-      "ISBN10": "0486433595",
-      "ISBN13": "9780486433592",
-      "pages": 56,
-      "url": "https://www.amazon.com/dp/0486433595",
-      "genre": "Philosophy",
-      "tags": ["philosophy", "stoicism"],
-      "read": {
-        "month": 2,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Up From Slavery",
-      "tagline": null,
-      "author": "Booker T. Washington",
-      "year_published": 1901,
-      "edition": 1,
-      "ISBN10": "0486287386",
-      "ISBN13": "9780486287386",
-      "pages": 157,
-      "url": "https://www.amazon.com/dp/0486287386",
-      "genre": "Biography",
-      "tags": ["slavery", "history", "education", "america"],
-      "read": {
-        "month": 2,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Zen Mind, Beginner's Mind",
-      "tagline": "Informal Talks on Zen Meditation and Practice",
-      "author": "Shunryu Suzuki",
-      "year_published": 1970,
-      "edition": 1,
-      "ISBN10": "1611808413",
-      "ISBN13": "9781611808414",
-      "pages": 148,
-      "url": "https://www.amazon.com/dp/1611808413",
-      "genre": "Buddhism",
-      "tags": ["buddhism", "mindfulness", "zen", "meditation"],
-      "read": {
-        "month": 2,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "You Are Here",
-      "tagline": "Discovering the Magic of the Present Moment",
-      "author": "Thich Nhat Hanh",
-      "year_published": 2001,
-      "edition": 1,
-      "ISBN10": "1590308387",
-      "ISBN13": "9781590308387",
-      "pages": 138,
-      "url": "https://www.amazon.com/dp/1590308387",
-      "genre": "Buddhism",
-      "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
-      "read": {
-        "dates": [{
-          "month": 4,
-          "year": 2022
-        }, {
-          "month": 2,
-          "year": 2022
-        }],
-        "month": 2,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "The Secrets of Power, Mastery, and Truth",
-      "tagline": "The Best of William George Jordan",
-      "author": ["Brett McKay", "Kate McKay"],
-      "year_published": 2019,
-      "edition": 1,
-      "ISBN10": "0999322215",
-      "ISBN13": "9780999322215",
-      "pages": 89,
-      "url": "https://store.artofmanliness.com/collections/books/products/the-secrets-to-power-mastery-and-truth",
-      "genre": "Philosophy",
-      "tags": ["philosophy", "wisdom"],
-      "read": {
-        "month": 2,
-        "year": 2022,
-        "stars": 5,
-        "review": null
-      }
-    }, {
-      "title": "Why Buddhism is True",
-      "tagline": "The Science and Philosophy of Meditation and Enlightenment",
-      "author": "Robert Wright",
-      "year_published": 2017,
-      "edition": 1,
-      "ISBN10": "1439195463",
-      "ISBN13": "9781439195458",
-      "pages": 301,
-      "url": "https://www.amazon.com/dp/1439195463",
-      "genre": "Buddhism",
-      "tags": ["buddhism", "meditation", "self-help", "religion", "psychology"],
-      "read": {
-        "month": 1,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Life is Disappointing",
-      "tagline": "And Other Inspiring Thoughts",
-      "author": "Matt Bellace",
-      "year_published": 2021,
-      "edition": 1,
-      "ISBN10": "1954332225",
-      "ISBN13": "9781954332225",
-      "pages": 203,
-      "url": "https://www.amazon.com/dp/195433222X",
-      "genre": "Self-Help",
-      "tags": ["self-help", "psychology"],
-      "read": {
-        "month": 1,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "The Heart of the Buddha's Teaching",
-      "tagline": "Transforming Suffering into Peace, Joy, and Liberation",
-      "author": "Thich Nhat Hanh",
-      "year_published": 1999,
-      "edition": 1,
-      "ISBN10": "0767903692",
-      "ISBN13": "9780767903691",
-      "pages": 275,
-      "url": "https://www.amazon.com/gp/0767903692",
-      "genre": "Buddhism",
-      "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
-      "read": {
-        "dates": [{
-          "month": 3,
-          "year": 2022
-        }, {
-          "month": 1,
-          "year": 2022
-        }],
-        "month": 1,
-        "year": 2022,
-        "stars": 5,
-        "review": null
-      }
-    }, {
-      "title": "How to Raise Successful People",
-      "tagline": "Simple Lessons to Help Your Child Become Self-Driven, Respectful, and Resilient",
-      "author": "Esther Wojcicki",
-      "year_published": 2020,
-      "edition": 1,
-      "ISBN10": "0358298717",
-      "ISBN13": "9780358298717",
-      "pages": 273,
-      "url": "https://www.amazon.com/dp/0358298717",
-      "genre": "Parenting",
-      "tags": ["parenting", "psychology"],
-      "read": {
-        "month": 1,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "The Clean Coder",
-      "tagline": "A Code of Conduct for Professional Programmers",
-      "author": "Robert C. Martin",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "0137081073",
-      "ISBN13": "9780137081073",
-      "pages": 204,
-      "url": "https://www.amazon.com/dp/0132350882",
-      "genre": "Programming",
-      "tags": ["programming", "software engineering", "clean code", "professionalism"],
-      "read": {
-        "month": 1,
-        "year": 2022,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "The Daily Laws",
-      "tagline": "366 Meditations on Power, Seduction, Mastery, Strategy, and Human Nature",
-      "author": "Robert Greene",
-      "year_published": 2021,
-      "edition": 1,
-      "ISBN10": "0593299213",
-      "ISBN13": "9780593299210",
-      "pages": 453,
-      "url": "https://www.amazon.com/dp/0593299213",
-      "genre": "Philosophy",
-      "tags": ["self-help", "philosophy", "strategy", "wisdom"],
-      "read": {
-        "month": 11,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "A Man at Arms",
-      "tagline": null,
-      "author": ["Steven Pressfield"],
-      "year_published": 2021,
-      "edition": 1,
-      "ISBN10": "0393540979",
-      "ISBN13": "9780393540970",
-      "pages": 317,
-      "url": "https://www.amazon.com/dp/0393540979",
-      "genre": "Fiction",
-      "tags": ["war", "rome"],
-      "read": {
-        "dates": [{
-          "month": 12,
-          "year": 2021
-        }],
+        "year": 2022
+      },
+      {
         "month": 12,
-        "year": 2021,
-        "stars": null,
-        "review": null
+        "year": 2020
       }
-    }, {
-      "title": "When Things Fall Apart",
-      "tagline": "Heart Advice for Difficult Times",
-      "author": ["Pema Chodron"],
-      "year_published": 1997,
-      "edition": 2,
-      "ISBN10": "1611803438",
-      "ISBN13": "9781611803433",
-      "pages": 146,
-      "url": "https://www.amazon.com/dp/1611803438",
-      "genre": "Self-Help",
-      "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 5,
-          "year": 2022
-        }, {
-          "month": 2,
-          "year": 2022
-        }, {
-          "month": 1,
-          "year": 2022
-        }, {
-          "month": 11,
-          "year": 2021
-        }],
-        "month": 11,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Hell Yeah or No",
-      "tagline": "What's Worth Doing",
-      "author": "Derek Sivers",
-      "year_published": 2020,
-      "edition": 1,
-      "ISBN10": "1988575063",
-      "ISBN13": "9781988575063",
-      "pages": 131,
-      "url": "https://sive.rs/n",
-      "genre": "Self-Help",
-      "tags": ["self-help", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 12,
-          "year": 2021
-        }],
-        "month": 12,
-        "year": 2021,
-        "stars": 5,
-        "review": null
-      }
-    }, {
-      "title": "How to Live",
-      "tagline": "27 conflicting answers and one weird conclusion",
-      "author": "Derek Sivers",
-      "year_published": 2021,
-      "edition": 1,
-      "ISBN10": "1991152305",
-      "ISBN13": "9781991152305",
-      "pages": 115,
-      "url": "https://sive.rs/h",
-      "genre": "Self-Help",
-      "tags": ["self-help", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 11,
-          "year": 2021
-        }, {
-          "month": 10,
-          "year": 2021
-        }],
+    ],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Walking",
+    "tagline": null,
+    "author": "Henry David Thoreau",
+    "year_published": 1862,
+    "edition": 1,
+    "ISBN10": "1451529791",
+    "ISBN13": "9781451529791",
+    "pages": 38,
+    "url": "https://www.amazon.com/dp/1451529791",
+    "genre": "Philosophy",
+    "tags": ["walking", "philosophy"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "JavaScript: The Good Parts",
+    "tagline": null,
+    "author": "Douglas Crockford",
+    "year_published": 2008,
+    "edition": 1,
+    "ISBN10": "0596517742",
+    "ISBN13": "9780596517748",
+    "pages": 145,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0596517742",
+    "genre": "Programming",
+    "tags": ["javascript", "programming", "software engineering"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "How to Read a Book",
+    "tagline": "The Classic Guide to Intelligent Reading",
+    "author": ["Mortimer J. Adler", "Charles Van Doren"],
+    "year_published": 1972,
+    "edition": 1,
+    "ISBN10": "0671212095",
+    "ISBN13": "9780671212094",
+    "pages": 417,
+    "url": "https://www.amazon.com/dp/0671212095/",
+    "genre": "Academic",
+    "tags": ["dates_reading"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Turning Pro",
+    "tagline": "Tap Your Inner Power and Create Your Life's Work",
+    "author": "Steven Pressfield",
+    "year_published": 2012,
+    "edition": 1,
+    "ISBN10": "1936891034",
+    "ISBN13": "9781936891030",
+    "pages": 132,
+    "url": "https://www.amazon.com/dp/1936891034",
+    "genre": "Self-Help",
+    "tags": ["must-dates_read", "motivation"],
+    "dates_read": [
+
+      {
         "month": 10,
-        "year": 2021,
-        "stars": 5,
-        "review": null
-      }
-    }, {
-      "title": "The Pragmatic Programmer",
-      "tagline": "Your Journey to Mastery",
-      "author": ["David Thomas", "Andrew Hunt"],
-      "year_published": 2020,
-      "edition": 2,
-      "ISBN10": "0135957052",
-      "ISBN13": "9780135957059",
-      "pages": 306,
-      "url": "https://www.amazon.com/dp/0135957052",
-      "genre": "Programming",
-      "tags": ["programming", "software engineering"],
-      "read": {
-        "month": 11,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Clean Code",
-      "tagline": "A Handbook of Agile Software Craftsmanship",
-      "author": "Robert C. Martin",
-      "year_published": 2009,
-      "edition": 1,
-      "ISBN10": "0132350882",
-      "ISBN13": "9780132350884",
-      "pages": 315,
-      "url": "https://www.amazon.com/dp/0132350882",
-      "genre": "Programming",
-      "tags": ["programming", "software engineering", "clean code"],
-      "read": {
-        "month": 10,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    }, {
-      "title": "Inner Engineering",
-      "tagline": "A Yogi's Guide to Joy",
-      "author": "Sadhguru",
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "0812997794",
-      "ISBN13": "9780812997798",
-      "pages": 262,
-      "url": "https://www.amazon.com/dp/product/0812997794",
-      "genre": "Self-Help",
-      "tags": ["self-help", "spirituality", "yoga", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 12,
-          "year": 2021
-        }, {
-          "month": 6,
-          "year": 2021
-        }],
-        "month": 6,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Choice",
-      "tagline": "Embrace the Possible",
-      "author": "Dr. Edith Eva Eger",
-      "year_published": 2018,
-      "edition": 1,
-      "ISBN10": "150113079X",
-      "ISBN13": "9781501130786",
-      "pages": 272,
-      "url": "https://www.amazon.com/dp/product/150113079X",
-      "genre": "Self-Help",
-      "tags": ["self-help", "psychology", "life", "death"],
-      "read": {
-        "month": 4,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Prophet",
-      "tagline": null,
-      "author": "Kahlil Gibran",
-      "year_published": 1923,
-      "edition": 1,
-      "ISBN10": "1949982327",
-      "ISBN13": "9781949982329",
-      "pages": 89,
-      "url": "https://www.amazon.com/dp/product/1949982327",
-      "genre": "Philosophy",
-      "tags": ["philosophy"],
-      "read": {
-        "month": 4,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Emotional Intelligence 2.0",
-      "tagline": null,
-      "author": ["Travis Bradberry", "Jean Greaves"],
-      "year_published": 2009,
-      "edition": 1,
-      "ISBN10": "0974320625",
-      "ISBN13": "9780974320625",
-      "pages": 250,
-      "url": "https://www.amazon.com/dp/0974320625",
-      "genre": "Self-Help",
-      "tags": ["self-help", "eq", "psychology"],
-      "read": {
-        "month": 3,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Tools of Titans",
-      "tagline": "The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers",
-      "author": "Timothy Ferriss",
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "1328683788",
-      "ISBN13": "9781328683786",
-      "pages": 686,
-      "url": "https://www.amazon.com/dp/1328683788",
-      "genre": "Productivity",
-      "tags": ["productivity", "investing", "leadership", "philosophy"],
-      "read": {
-        "month": 10,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "JavaScript: The Definitive Guide",
-      "tagline": "Master the World's Most-Used Programming Language",
-      "author": "David Flanagan",
-      "year_published": 2020,
-      "edition": 7,
-      "ISBN10": "1491952024",
-      "ISBN13": "9781491952023",
-      "pages": 665,
-      "url": "https://www.amazon.com/dp/1491952024",
-      "genre": "Programming",
-      "tags": ["javascript", "programming", "software engineering", "web development"],
-      "read": {
+        "year": 2020
+      },
+      {
         "month": null,
-        "year": 2021,
-        "stars": null,
-        "review": null
+        "year": 2021
       }
-    },
-    {
-      "title": "Walden and Civil Disobedience",
-      "tagline": null,
-      "author": "Henry David Thoreau",
-      "year_published": 1854,
-      "edition": 1,
-      "ISBN10": "0451532163",
-      "ISBN13": "9780451532169",
-      "pages": 316,
-      "url": "https://www.amazon.com/gp/product/0451532163",
-      "genre": "Philosophy",
-      "tags": ["philosophy", "politics", "minimalism"],
-      "read": {
-        "month": 3,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "White Fang",
-      "tagline": null,
-      "author": "Jack London",
-      "year_published": 1906,
-      "edition": 1,
-      "ISBN10": "1948132257",
-      "ISBN13": "9781948132251",
-      "pages": 242,
-      "url": "https://www.amazon.com/dp/1948132257",
-      "genre": "Fiction",
-      "tags": ["must-read"],
-      "read": {
+    ],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "The War of Art",
+    "tagline": "Break Through the Blocks and Win Your Inner Creative Battles",
+    "author": "Steven Pressfield",
+    "year_published": 2002,
+    "edition": 1,
+    "ISBN10": "1936891026",
+    "ISBN13": "9781936891023",
+    "pages": 162,
+    "url": "https://www.amazon.com/gp/product/1936891026",
+    "genre": "Self-Help",
+    "tags": ["must-dates_read", "motivation"],
+    "dates_read": [
+
+      {
+        "month": 10,
+        "year": 2020
+      },
+      {
+        "month": 10,
+        "year": 2021
+      },
+      {
+        "month": null,
+        "year": 2021
+      },
+      {
         "month": 2,
-        "year": 2021,
-        "stars": 5,
-        "review": null
+        "year": 2021
       }
-    },
-    {
-      "title": "Surely You’re Joking, Mr. Feynman!",
-      "tagline": "Adventures of a Curious Character",
-      "author": "Richard P. Feynman",
-      "year_published": 1985,
-      "edition": 1,
-      "ISBN10": "0393355624",
-      "ISBN13": "9780393355628",
-      "pages": 391,
-      "url": "https://www.amazon.com/dp/0393355624",
-      "genre": "Autobiography",
-      "tags": ["autobiography", "science", "humor"],
-      "read": {
-        "month": 1,
-        "year": 2021,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Peaceful Parent, Happy Siblings",
-      "tagline": "How to Stop the Fighting and Raise Friends for Life",
-      "author": "Dr. Laura Markham",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "0399168451",
-      "ISBN13": "9780399168451",
-      "pages": 352,
-      "url": "https://www.amazon.com/dp/0399168451",
-      "genre": "Parenting",
-      "tags": ["parenting", "psychology"],
-      "read": {
-        "month": 1,
-        "year": 2021,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Four Agreements",
-      "tagline": "A Practical Guide to Personal Freedom (A Toltec Wisdom Book)",
-      "author": "Don Miguel Ruiz",
-      "year_published": 1997,
-      "edition": 1,
-      "ISBN10": "1878424310",
-      "ISBN13": "9781878424310",
-      "ASIN": "1878424319",
-      "pages": 160,
-      "url": "https://www.amazon.com/dp/1878424319/",
-      "genre": "Self-Help",
-      "tags": ["self-help", "toltec", "mindfulness", "philosophy"],
-      "read": {
-        "month": 12,
-        "year": 2020,
-        "stars": 4,
-        "review": null
-      }
-    },
-    {
-      "title": "The Bhagavad Gita",
-      "tagline": null,
-      "author": "Eknath Easwaran",
-      "year_published": 2007,
-      "edition": 2,
-      "ISBN10": "1586380192",
-      "ISBN13": "9781586380199",
-      "pages": 296,
-      "url": "https://www.amazon.com/dp/1586380192/",
-      "genre": "Spiritual",
-      "tags": ["spirituality", "hinduism"],
-      "read": {
-        "month": 12,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Wherever You Go, There You Are",
-      "tagline": "Mindfulness Meditation in Everyday Life",
-      "author": "Jon Kabat-Zinn",
-      "year_published": 1994,
-      "edition": 1,
-      "ISBN10": "1401307783",
-      "ISBN13": "9781401307783",
-      "ASIN": "1401307787",
-      "pages": 304,
-      "url": "https://www.amazon.com/dp/1401307787/",
-      "genre": "Self-help",
-      "tags": ["self-help", "meditation", "mindfulness", "buddhism", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 3,
-          "year": 2022
-        }, {
-          "month": 12,
-          "year": 2020
-        }],
-        "month": 12,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Walking",
-      "tagline": null,
-      "author": "Henry David Thoreau",
-      "year_published": 1862,
-      "edition": 1,
-      "ISBN10": "1451529791",
-      "ISBN13": "9781451529791",
-      "pages": 38,
-      "url": "https://www.amazon.com/dp/1451529791",
-      "genre": "Philosophy",
-      "tags": ["walking", "philosophy"],
-      "read": {
-        "month": 12,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "JavaScript: The Good Parts",
-      "tagline": null,
-      "author": "Douglas Crockford",
-      "year_published": 2008,
-      "edition": 1,
-      "ISBN10": "0596517742",
-      "ISBN13": "9780596517748",
-      "pages": 145,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0596517742",
-      "genre": "Programming",
-      "tags": ["javascript", "programming", "software engineering"],
-      "read": {
-        "month": 11,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "How to Read a Book",
-      "tagline": "The Classic Guide to Intelligent Reading",
-      "author": ["Mortimer J. Adler", "Charles Van Doren"],
-      "year_published": 1972,
-      "edition": 1,
-      "ISBN10": "0671212095",
-      "ISBN13": "9780671212094",
-      "pages": 417,
-      "url": "https://www.amazon.com/dp/0671212095/",
-      "genre": "Academic",
-      "tags": ["reading"],
-      "read": {
-        "month": 11,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Turning Pro",
-      "tagline": "Tap Your Inner Power and Create Your Life's Work",
-      "author": "Steven Pressfield",
-      "year_published": 2012,
-      "edition": 1,
-      "ISBN10": "1936891034",
-      "ISBN13": "9781936891030",
-      "pages": 132,
-      "url": "https://www.amazon.com/dp/1936891034",
-      "genre": "Self-Help",
-      "tags": ["must-read", "motivation"],
-      "read": {
-        "dates": [{
-          "month": 10,
-          "year": 2020
-        }, {
-          "month": null,
-          "year": 2019
-        }],
-        "month": 10,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "The War of Art",
-      "tagline": "Break Through the Blocks and Win Your Inner Creative Battles",
-      "author": "Steven Pressfield",
-      "year_published": 2002,
-      "edition": 1,
-      "ISBN10": "1936891026",
-      "ISBN13": "9781936891023",
-      "pages": 162,
-      "url": "https://www.amazon.com/gp/product/1936891026",
-      "genre": "Self-Help",
-      "tags": ["must-read", "motivation"],
-      "read": {
-        "dates": [{
-          "month": 10,
-          "year": 2021
-        }, {
-          "month": 10,
-          "year": 2020
-        }, {
-          "month": null,
-          "year": 2019
-        }, {
-          "month": 2,
-          "year": 2015
-        }],
-        "month": 10,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Call of the Wild",
-      "tagline": null,
-      "author": "Jack London",
-      "year_published": 1903,
-      "edition": 1,
-      "ISBN10": "1948132273",
-      "ISBN13": "9781948132275",
-      "pages": 202,
-      "url": "https://www.amazon.com/dp/1948132273",
-      "genre": "Fiction",
-      "tags": ["must-read"],
-      "read": {
-        "month": 10,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Peaceful Parent, Happy Kids",
-      "tagline": "How to Stop Yelling and Start Connecting",
-      "author": "Dr. Laura Markham",
-      "year_published": 2012,
-      "edition": 1,
-      "ISBN10": "0399160280",
-      "ISBN13": "9780399160288",
-      "pages": 304,
-      "url": "https://www.amazon.com/dp/0399160280",
-      "genre": "Parenting",
-      "tags": ["parenting", "psychology"],
-      "read": {
-        "month": 9,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Warrior Ethos",
-      "tagline": null,
-      "author": "Steven Pressfield",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "193689100X",
-      "ISBN13": "9781936891009",
-      "pages": 90,
-      "url": "https://www.amazon.com/dp/193689100X/",
-      "genre": "Motivation",
-      "tags": ["motivation", "war"],
-      "read": {
-        "dates": [{
-          "month": 8,
-          "year": 2020
-        }, {
-          "month": 2,
-          "year": 2015
-        }],
+    ],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Call of the Wild",
+    "tagline": null,
+    "author": "Jack London",
+    "year_published": 1903,
+    "edition": 1,
+    "ISBN10": "1948132273",
+    "ISBN13": "9781948132275",
+    "pages": 202,
+    "url": "https://www.amazon.com/dp/1948132273",
+    "genre": "Fiction",
+    "tags": ["must-dates_read"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2020
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Peaceful Parent, Happy Kids",
+    "tagline": "How to Stop Yelling and Start Connecting",
+    "author": "Dr. Laura Markham",
+    "year_published": 2012,
+    "edition": 1,
+    "ISBN10": "0399160280",
+    "ISBN13": "9780399160288",
+    "pages": 304,
+    "url": "https://www.amazon.com/dp/0399160280",
+    "genre": "Parenting",
+    "tags": ["parenting", "psychology"],
+    "dates_read": [{
+      "month": 9,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Warrior Ethos",
+    "tagline": null,
+    "author": "Steven Pressfield",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "193689100X",
+    "ISBN13": "9781936891009",
+    "pages": 90,
+    "url": "https://www.amazon.com/dp/193689100X/",
+    "genre": "Motivation",
+    "tags": ["motivation", "war"],
+    "dates_read": [
+
+      {
         "month": 8,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Discipline Equals Freedom",
-      "tagline": null,
-      "author": "Jocko Willink",
-      "year_published": 2017,
-      "edition": 1,
-      "ISBN10": "1250156945",
-      "ISBN13": "9781250156945",
-      "ASIN": "1250156947",
-      "pages": 199,
-      "url": "https://www.amazon.com/dp/1250156947",
-      "genre": "Self-Help",
-      "tags": ["self-help", "motivation"],
-      "read": {
-        "month": 7,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Stillness Is the Key",
-      "tagline": null,
-      "series": "The Way, the Enemy, and the Key",
-      "author": "Ryan Holiday",
-      "year_published": 2019,
-      "edition": 1,
-      "ISBN10": "0525538585",
-      "ISBN13": "9780525538585",
-      "pages": 288,
-      "url": "https://www.amazon.com/dp/0525538585",
-      "genre": "Self-Help",
-      "tags": ["self-help", "stoicism", "philosophy"],
-      "read": {
-        "month": 6,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Ego Is the Enemy",
-      "tagline": null,
-      "series": "The Way, the Enemy, and the Key",
-      "author": "Ryan Holiday",
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "1591847818",
-      "ISBN13": "9781591847816",
-      "pages": 217,
-      "url": "https://www.amazon.com/gp/product/1591847818/",
-      "genre": "Self-Help",
-      "tags": ["self-help", "stoicism", "philosophy"],
-      "read": {
-        "month": 6,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Obstacle Is the Way",
-      "tagline": "The Timeless Art of Turning Trials into Triumph",
-      "series": "The Way, the Enemy, and the Key",
-      "author": "Ryan Holiday",
-      "year_published": 2014,
-      "edition": 1,
-      "ISBN10": "1591846358",
-      "ISBN13": "9781591846352",
-      "pages": 224,
-      "url": "https://www.amazon.com/dp/1591846358/",
-      "genre": "Self-Help",
-      "tags": ["self-help", "stoicism", "philosophy"],
-      "read": {
-        "month": 5,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Man's Search for Meaning",
-      "tagline": null,
-      "author": "Viktor E. Frankl",
-      "year_published": 1946,
-      "edition": 1,
-      "ISBN10": "1416524282",
-      "ISBN13": "9781416524281",
-      "ASIN": "1416524282",
-      "pages": 165,
-      "url": "https://www.amazon.com/dp/1416524282",
-      "genre": "Psychology",
-      "tags": ["psychology", "philosophy"],
-      "read": {
-        "dates": [{
-          "month": 4,
-          "year": 2020
-        }, {
-          "month": 6,
-          "year": 2018
-        }],
-        "month": 4,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "The Diamond Age",
-      "tagline": "Or, a Young Lady's Illustrated Primer",
-      "author": "Neal Stephenson",
-      "year_published": 2000,
-      "edition": 1,
-      "ISBN10": "0553380966",
-      "ISBN13": "9780553380965",
-      "pages": 499,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0553380966",
-      "genre": "Science Fiction",
-      "tags": [],
-      "read": {
-        "month": 4,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Hobbit",
-      "tagline": "Or There and Back Again",
-      "author": "J.R.R. Tolkien",
-      "year_published": 1937,
-      "edition": 2,
-      "ISBN10": "0618162216",
-      "ISBN13": " 9780618968633",
-      "pages": 330,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0618968636",
-      "genre": "Fantasy",
-      "tags": ["must-read"],
-      "read": {
-        "month": 3,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Total Control",
-      "tagline": "High Performance Street Riding Techniques",
-      "author": "Lee Parks",
-      "year_published": 2015,
-      "edition": 2,
-      "ISBN10": "0760343446",
-      "ISBN13": "9780760343449",
-      "pages": 187,
-      "url": "https://www.amazon.com/dp/0760343446",
-      "genre": "Motorcycling",
-      "tags": ["motorcycling", "must-read"],
-      "read": {
+        "year": 2020
+      },
+      {
         "month": 2,
-        "year": 2020,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "A Wrinkle In Time",
-      "tagline": null,
-      "author": "Madeleine L'engle",
-      "year_published": 1962,
-      "edition": 1,
-      "ISBN10": "0312367546",
-      "ISBN13": "9780312367541",
-      "pages": 203,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0312367546",
-      "genre": "Fiction",
-      "tags": [],
-      "read": {
-        "month": 1,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Habit Stacking",
-      "tagline": "127 Small Changes to Improve Your Health, Wealth, and Happiness",
-      "author": "S.J. Scott",
-      "year_published": 2017,
-      "edition": 2,
-      "ISBN10": "1545339120",
-      "ISBN13": "9781545339121",
-      "pages": 330,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1545339120",
-      "genre": "Self-Help",
-      "tags": ["self-help", "habits", "productivity"],
-      "read": {
-        "month": 1,
-        "year": 2020,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Murder on the Orient Express",
-      "tagline": "A Hercule Poirot Mystery",
-      "series": "Hercule Poirot Mysteries",
-      "author": "Agatha Christie",
-      "year_published": 1934,
-      "edition": 1,
-      "ISBN10": "0425173933",
-      "ISBN13": "9780062073495",
-      "pages": 245,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0062073494",
-      "genre": "Mystery",
-      "tags": ["murder", "mystery", "crime"],
-      "read": {
-        "month": 1,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Extreme Ownership",
-      "tagline": "How U.S. Navy SEALs Lead and Win",
-      "author": ["Jocko Willink", "Leif Babin"],
-      "year_published": 2015,
-      "edition": 2,
-      "ISBN10": "1250183866",
-      "ISBN13": "9781250183866",
-      "ASIN": "1250183863",
-      "pages": 312,
-      "url": "https://www.amazon.com/dp/1250183863",
-      "genre": "Leadership",
-      "tags": ["leadership", "Navy SEALs"],
-      "read": {
-        "month": 11,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Ghost Rider",
-      "tagline": "Travels on the Healing Road",
-      "author": "Neil Peart",
-      "year_published": 2002,
-      "edition": 1,
-      "ISBN10": "1550225480",
-      "ISBN13": "9781550225488",
-      "pages": 460,
-      "url": "https://www.amazon.com/dp/1550225480",
-      "genre": "Travel",
-      "tags": ["death", "grief", "travel", "motorcycling"],
-      "read": {
-        "month": 10,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Virtues of War",
-      "tagline": "A Novel of Alexander the Great",
-      "author": "Steven Pressfield",
-      "year_published": 2005,
-      "edition": 1,
-      "ISBN10": "0553382055",
-      "ISBN13": "9780553382051",
-      "pages": 344,
-      "url": "https://www.amazon.com/dp/0553382055",
-      "genre": "Fiction",
-      "tags": ["must-read", "war"],
-      "read": {
-        "month": 8,
-        "year": 2019,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "The Revenge of Analog",
-      "tagline": "Real Things and Why They Matter",
-      "author": "David Sax",
-      "year_published": 2017,
-      "edition": 1,
-      "ISBN10": "1610398211",
-      "ISBN13": "9781610398213",
-      "pages": 204,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1610398211",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "12 Rules for Life",
-      "tagline": "An Antidote to Chaos",
-      "author": "Jordan B. Peterson",
-      "year_published": 2018,
-      "edition": 1,
-      "ISBN10": "0345816021",
-      "ISBN13": "9780345816023",
-      "pages": 368,
-      "url": "https://www.amazon.com/dp/0345816021",
-      "genre": "Self-Help",
-      "tags": ["self-help", "psychology"],
-      "read": {
-        "month": 7,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Zen and the Art of Motorcycle Maintenance",
-      "tagline": "An Inquiry Into Values",
-      "author": "Robert M. Pirsig",
-      "year_published": 1974,
-      "edition": 1,
-      "ISBN10": "0060839872",
-      "ISBN13": "9780060839871",
-      "pages": 430,
-      "url": "https://www.amazon.com/dp/0060839872",
-      "genre": "Philosophy",
-      "tags": ["philosophy", "motorcycling"],
-      "read": {
-        "month": 6,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Road",
-      "tagline": null,
-      "author": "Cormac McCarthy",
-      "year_published": 2006,
-      "edition": 1,
-      "ISBN10": "0307387899",
-      "ISBN13": "9780307387899",
-      "ASIN": "0307387895",
-      "pages": 287,
-      "url": "https://www.amazon.com/dp/0307387895",
-      "genre": "Fiction",
-      "tags": [],
-      "read": {
-        "month": 4,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Proficient Motorcycling",
-      "tagline": "The Ultimate Guide to Riding Well",
-      "author": "David L. Hough",
-      "year_published": 2000,
-      "edition": 1,
-      "ISBN10": "1889540536",
-      "ISBN13": "9781889540535",
-      "pages": 250,
-      "url": "https://www.amazon.com/dp/1889540536",
-      "genre": "Motorcycling",
-      "tags": ["motorcycling", "must-read"],
-      "read": {
-        "month": 3,
-        "year": 2019,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Traffic",
-      "tagline": "Why We Drive the Way We Do (and What It Says About Us)",
-      "author": "Tom Vanderbilt",
-      "year_published": 2009,
-      "edition": 1,
-      "ISBN10": "0307277194",
-      "ISBN13": "9780307277190",
-      "pages": 416,
-      "url": "https://www.amazon.com/dp/0307277194",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": 3,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Power of Moments",
-      "tagline": "Why Certain Experiences Have Extraordinary Impact",
-      "author": "Chip Heath",
-      "year_published": 2017,
-      "edition": 1,
-      "ISBN10": "1501147765",
-      "ISBN13": "9781501147760",
-      "pages": 320,
-      "url": "https://www.amazon.com/dp/1501147765",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": 2,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Five People You Meet in Heaven",
-      "tagline": null,
-      "author": "Mitch Albom",
-      "year_published": 2003,
-      "edition": 1,
-      "ISBN10": "1401308589",
-      "ISBN13": "9781401308582",
-      "pages": 196,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1401308589/",
-      "genre": "Fiction",
-      "tags": ["death"],
-      "read": {
-        "month": 1,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "For One More Day",
-      "tagline": null,
-      "author": "Mitch Albom",
-      "year_published": 2006,
-      "edition": 1,
-      "ISBN10": "1401309577",
-      "ISBN13": "9781401309572",
-      "pages": 197,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1401309577",
-      "genre": "Fiction",
-      "tags": ["death"],
-      "read": {
-        "month": 1,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Why Gender Matters",
-      "tagline": "What Parents and Teachers Need to Know about the Emerging Science of Sex Differences",
-      "author": "Dr. Leonard Sax",
-      "year_published": 2005,
-      "edition": 2,
-      "ISBN10": "0451497775",
-      "ISBN13": "9780451497772",
-      "pages": 332,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0451497775",
-      "genre": "Parenting",
-      "tags": ["parenting", "psychology"],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Collapse of Parenting",
-      "tagline": "How We Hurt Our Kids When We Treat Them Like Grown-Ups",
-      "author": "Dr. Leonard Sax",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "0465094287",
-      "ISBN13": "9780465094288",
-      "pages": 263,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0465094287",
-      "genre": "Parenting",
-      "tags": ["parenting", "psychology"],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Just Mercy",
-      "tagline": "A Story of Justice and Redemption",
-      "author": "Bryan Stevenson",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "0812984965",
-      "ISBN13": "9780812984965",
-      "ASIN": "081298496X",
-      "pages": 368,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/081298496X",
-      "genre": "Autobiography",
-      "tags": ["racism", "must-read"],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Gates of Fire",
-      "tagline": "An Epic Novel of the Battle of Thermopylae",
-      "author": "Steven Pressfield",
-      "year_published": 1998,
-      "edition": null,
-      "ISBN10": "055338368X",
-      "ISBN13": "9780553383683",
-      "pages": 384,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/055338368X",
-      "genre": "Fiction",
-      "tags": ["war", "must-read"],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "Seveneves",
-      "tagline": null,
-      "author": "Neal Stephenson",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "0062334514",
-      "ISBN13": "9780062334510",
-      "pages": 880,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0062334514",
-      "genre": "Science Fiction",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2019,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Daily Stoic",
-      "tagline": "366 Meditations on Wisdom, Perseverance, and the Art of Living",
-      "author": "Ryan Holiday",
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "0735211736",
-      "ISBN13": "9780735211735",
-      "pages": 416,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0735211736",
-      "genre": "Philosophy",
-      "tags": ["stoicism", "philosophy"],
-      "read": {
-        "month": null,
-        "year": 2018,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Meditations: A New Translation",
-      "tagline": null,
-      "author": ["Marcus Aurelius", "Gregory Hays"],
-      "year_published": 2003,
-      "edition": 1,
-      "ISBN10": "0812968255",
-      "ISBN13": "9780812968255",
-      "pages": 256,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0812968255",
-      "genre": "Philosophy",
-      "tags": ["stoicism", "philosophy"],
-      "read": {
-        "month": null,
-        "year": 2018,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "When Breath Becomes Air",
-      "tagline": null,
-      "author": "Paul Kalanithi",
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "081298840X",
-      "ISBN13": "9780812988406",
-      "pages": 225,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/081298840X",
-      "genre": "Memoir",
-      "tags": ["life", "death"],
-      "read": {
-        "month": null,
-        "year": 2018,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "100 Deadly Skills",
-      "tagline": "The SEAL Operative's Guide to Eluding Pursuers, Evading Capture, and Surviving Any Dangerous Situation",
-      "author": "Clint Emerson",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "147679605X",
-      "ISBN13": "9781476796055",
-      "pages": 243,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/147679605X",
-      "genre": null,
-      "tags": ["skills", "Navy SEALs"],
-      "read": {
-        "month": null,
-        "year": 2018,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Beneath a Scarlet Sky",
-      "tagline": null,
-      "author": "Mark Sullivan",
-      "year_published": 2017,
-      "edition": 1,
-      "ISBN10": "1503943372",
-      "ISBN13": "9781503943377",
-      "pages": 523,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1503943372",
-      "genre": "Fiction",
-      "tags": ["ww2", "must-read"],
-      "read": {
-        "month": null,
-        "year": 2017,
-        "stars": 5,
-        "review": null
-      }
-    },
-    {
-      "title": "So Good They Can't Ignore You",
-      "tagline": "Why Skills Trump Passion in the Quest for Work You Love",
-      "author": "Calvin C. Newport",
-      "year_published": 2012,
-      "edition": 1,
-      "ISBN10": "1455509124",
-      "ISBN13": "9781455509126",
-      "pages": 253,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1455509124",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2017,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Be Prepared",
-      "tagline": "A Practical Handbook for New Dads",
-      "author": ["Gary Greenberg", "Jeannie Hayden"],
-      "year_published": 2004,
-      "edition": 1,
-      "ISBN10": "0743251547",
-      "ISBN13": "9780743251549",
-      "pages": 240,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0743251547",
-      "genre": "Parenting",
-      "tags": ["parenting", "fatherhood"],
-      "read": {
-        "month": null,
-        "year": 2017,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Expectant Father",
-      "tagline": "Facts, Tips, and Advice for Dads-to-Be",
-      "author": ["Armin A. Brott", "Jennifer Ash"],
-      "year_published": 2010,
-      "edition": 3,
-      "ISBN10": "0789210770",
-      "ISBN13": "9780789210777",
-      "pages": 352,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0789210770",
-      "genre": "Parenting",
-      "tags": ["parenting", "fatherhood"],
-      "read": {
-        "month": null,
-        "year": 2017,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Let Them Eat Dirt",
-      "tagline": "Saving Your Child from an Oversanitized World",
-      "author": ["Dr. B. Brett Finlay OC PhD", "Dr. Marie-Claire Arrieta PhD"],
-      "year_published": 2016,
-      "edition": 1,
-      "ISBN10": "1616206497",
-      "ISBN13": "9781616206499",
-      "pages": 267,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1616206497",
-      "genre": "Parenting",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2016,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "With the Old Breed",
-      "tagline": "At Peleliu and Okinawa",
-      "author": "Eugene B. Sledge",
-      "year_published": 1981,
-      "edition": 1,
-      "ISBN10": "0891419063",
-      "ISBN13": "9780891419068",
-      "pages": 315,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0891419063",
-      "genre": "War",
-      "tags": ["ww2", "war", "marines", "military"],
-      "read": {
-        "month": null,
-        "year": 2016,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Bad Science",
-      "tagline": "Quacks, Hacks, and Big Pharma Flacks",
-      "author": "Ben Goldacre",
-      "year_published": 2010,
-      "edition": 1,
-      "ISBN10": "0865479180",
-      "ISBN13": "9780865479180",
-      "ASIN": "0865479186",
-      "pages": 269,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0865479186",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2016,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The 5 Love Languages",
-      "tagline": "The Secret to Love that Lasts",
-      "author": "Gary Chapman",
-      "year_published": 1992,
-      "edition": 1,
-      "ISBN10": "080241270X",
-      "ISBN13": "9780802412706",
-      "pages": 208,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/080241270X",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2016,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The 7 Habits of Highly Effective People",
-      "tagline": "Powerful Lessons in Personal Change",
-      "author": "Stephen R. Covey",
-      "year_published": 1989,
-      "edition": 1,
-      "ISBN10": "1451639612",
-      "ISBN13": "9781451639612",
-      "ASIN": "1451639619",
-      "pages": 432,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1451639619",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2016,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Ender's Game",
-      "tagline": null,
-      "author": "Orson Scott Card",
-      "year_published": 1994,
-      "edition": 1,
-      "ISBN10": "0812550706",
-      "ISBN13": "9780812550702",
-      "pages": 352,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0812550706",
-      "genre": "Science Fiction",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Resilience",
-      "tagline": "Hard-Won Wisdom for Living a Better Life",
-      "author": "Eric Greitens",
-      "year_published": 2015,
-      "edition": 1,
-      "ISBN10": "054432398X",
-      "ISBN13": "9780544323988",
-      "pages": 320,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/054432398X/",
-      "genre": null,
-      "tags": ["Navy SEALs"],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Some We Love, Some We Hate, Some We Eat",
-      "tagline": "Why It's So Hard to Think Straight About Animals",
-      "author": "Hal Herzog",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "0061730856",
-      "ISBN13": "9780061730856",
-      "ASIN": "0061730858",
-      "pages": 326,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0061730858",
-      "genre": null,
-      "tags": ["food", "animals", "animal rights", "psychology"],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Power of Habit",
-      "tagline": "Why We Do What We Do in Life and Business",
-      "author": "Charles Duhigg ",
-      "year_published": 2014,
-      "edition": 1,
-      "ISBN10": "081298160X",
-      "ISBN13": "9780812981605",
-      "pages": 365,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/081298160X",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Circle",
-      "tagline": null,
-      "author": "Dave Eggers",
-      "year_published": 2014,
-      "edition": 1,
-      "ISBN10": "0345807294",
-      "ISBN13": "9780345807298",
-      "pages": 497,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0345807294",
-      "genre": "Fiction",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Animal Farm",
-      "tagline": null,
-      "author": "George Orwell",
-      "year_published": 1945,
-      "edition": 1,
-      "ISBN10": "0451526342",
-      "ISBN13": "9780451526342",
-      "ASIN": "0451526341",
-      "pages": 141,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0451526341",
-      "genre": "Fiction",
-      "tags": ["politics"],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "1984",
-      "tagline": null,
-      "author": "George Orwell",
-      "year_published": 1949,
-      "edition": 1,
-      "ISBN10": "0452262933",
-      "ISBN13": "9780452262935",
-      "pages": 326,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0452262933",
-      "genre": "Fiction",
-      "tags": ["politics"],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The 4-Hour Work Week",
-      "tagline": "Escape the 9-5, Live Anywhere and Join the New Rich",
-      "author": "Timothy Ferriss",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "0091929113",
-      "ISBN13": "9780091929114",
-      "pages": 416,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0091929113",
-      "genre": "Productivity",
-      "tags": ["productivity", "investing"],
-      "read": {
-        "month": null,
-        "year": 2015,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Spartan Up",
-      "tagline": "A Take-No-Prisoners Guide to Overcoming Obstacles and Achieving Peak Performance in Life",
-      "author": "Joe De Sena",
-      "year_published": 2014,
-      "edition": 1,
-      "ISBN10": "0544570219",
-      "ISBN13": "9780544570214",
-      "pages": 224,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0544570219",
-      "genre": "Fitness",
-      "tags": ["fitness", "exercise", "racing", "obstacles", "motivation"],
-      "read": {
-        "month": null,
-        "year": 2014,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Big Picture",
-      "tagline": "11 Laws That Will Change Your Life",
-      "author": "Tony Horton",
-      "year_published": 2014,
-      "edition": 1,
-      "ISBN10": "0062282392",
-      "ISBN13": "9780062282392",
-      "pages": 272,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0062282395",
-      "genre": "Fitness",
-      "tags": ["fitness", "exercise", "motivation"],
-      "read": {
-        "month": null,
-        "year": 2014,
-        "stars": 4,
-        "review": null
-      }
-    },
-    {
-      "title": "The Way of the SEAL",
-      "tagline": "Think Like and Elite Warrior to Lead and Succeed",
-      "author": ["Mark Divine", "Allyson Edelhertz Machate"],
-      "edition": 1,
-      "year_published": 2014,
-      "ISBN10": "1621454037",
-      "ISBN13": "9781621454038",
-      "pages": 204,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1621454037",
-      "genre": null,
-      "tags": ["Navy SEALs", "motivation", "leadership", "military"],
-      "read": {
-        "month": null,
-        "year": 2014,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Foreign Enemies And Traitors",
-      "tagline": null,
-      "series": "The Enemies Trilogy",
-      "series_number": 3,
-      "author": "Matthew Bracken",
-      "year_published": 2009,
-      "edition": 1,
-      "ISBN10": "0972831037",
-      "ISBN13": "9780972831031",
-      "pages": 576,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0972831037",
-      "genre": "Fiction",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2014,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Domestic Enemies: The Reconquista",
-      "tagline": null,
-      "series": "The Enemies Trilogy",
-      "series_number": 2,
-      "author": "Matthew Bracken",
-      "year_published": 2006,
-      "edition": 1,
-      "ISBN10": "0972831029",
-      "ISBN13": "9780972831024",
-      "pages": 544,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0972831029",
-      "genre": "Fiction",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2014,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Enemies Foreign and Domestic",
-      "tagline": null,
-      "series": "The Enemies Trilogy",
-      "series_number": 1,
-      "author": "Matthew Bracken",
-      "year_published": 2003,
-      "edition": 1,
-      "ISBN10": "0972831010",
-      "ISBN13": "9780972831017",
-      "pages": 576,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0972831010",
-      "genre": null,
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Service",
-      "tagline": "A Navy SEAL at War",
-      "author": ["Marcus Luttrell", "James D. Hornfischer"],
-      "year_published": 2012,
-      "edition": 1,
-      "ISBN10": "0316185363",
-      "ISBN13": "9780316185363",
-      "ASIN": "0316185361",
-      "pages": 384,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0316185361",
-      "genre": "Biography",
-      "tags": ["Navy SEALs", "war", "military"],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "American Sniper",
-      "tagline": "The Autobiography of the Most Lethal Sniper in U.S. Military History",
-      "author": ["Chris Kyle", "Scott McEwen", "Jim DeFelice"],
-      "year_published": 2013,
-      "edition": 1,
-      "ISBN10": "0062238868",
-      "ISBN13": "9780062238863",
-      "pages": 448,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0062238868",
-      "genre": "Autobiography",
-      "tags": ["Navy SEALs", "war", "military"],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Lone Survivor",
-      "tagline": "The Eyewitness Account of Operation Redwing and the Lost Heroes of SEAL Team 10",
-      "author": ["Marcus Luttrell", "Patrick Robinson"],
-      "year_published": 2008,
-      "edition": 1,
-      "ISBN10": "0316067601",
-      "ISBN13": "9780316067607",
-      "pages": 390,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0316067601",
-      "genre": "War",
-      "tags": ["Navy SEALs", "war"],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Inside SEAL Team Six",
-      "tagline": "My Life and Missions with America's Elite Warriors",
-      "author": "Don Mann",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "0316204307",
-      "ISBN13": "9780316204309",
-      "pages": 304,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0316204307",
-      "genre": "Military",
-      "tags": ["Navy SEALs", "war", "military"],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Navy SEAL Training: Self-Confidence ",
-      "tagline": null,
-      "author": "David Rutherford",
-      "year_published": 2012,
-      "edition": 1,
-      "ISBN10": "0980146437",
-      "ISBN13": "9780980146431",
-      "pages": 243,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0980146437",
-      "genre": null,
-      "tags": ["Navy SEALs", "motivation", "self-help", "military"],
-      "read": {
-        "month": null,
-        "year": 2013,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "A Dance with Dragons",
-      "tagline": null,
-      "series": "A Song of Ice and Fire",
-      "series_number": 5,
-      "author": "George R.R. Martin",
-      "year_published": 2011,
-      "edition": 1,
-      "ISBN10": "0553801473",
-      "ISBN13": "9780553801477",
-      "pages": 959,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0553801473",
-      "genre": "Fantasy",
-      "tags": ["game of thrones", "fantasy"],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "A Feast for Crows",
-      "tagline": null,
-      "series": "A Song of Ice and Fire",
-      "series_number": 4,
-      "author": "George R.R. Martin",
-      "year_published": 2005,
-      "edition": 1,
-      "ISBN10": "0553801503",
-      "ISBN13": "9780553801507",
-      "pages": 684,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0008115435",
-      "genre": "Fantasy",
-      "tags": ["game of thrones", "fantasy"],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "A Storm of Swords",
-      "tagline": null,
-      "series": "A Song of Ice and Fire",
-      "series_number": 3,
-      "author": "George R.R. Martin",
-      "year_published": 2000,
-      "edition": 1,
-      "ISBN10": "0553106635",
-      "ISBN13": "9780553106633",
-      "pages": 924,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0553106635",
-      "genre": "Fantasy",
-      "tags": ["game of thrones", "fantasy"],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "A Clash of Kings",
-      "tagline": null,
-      "series": "A Song of Ice and Fire",
-      "series_number": 2,
-      "author": "George R.R. Martin",
-      "year_published": 1999,
-      "edition": 1,
-      "ISBN10": "0553108034",
-      "ISBN13": "9780553108033",
-      "pages": 728,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0553108034",
-      "genre": "Fantasy",
-      "tags": ["game of thrones", "fantasy"],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "A Game of Thrones",
-      "tagline": null,
-      "series": "A Song of Ice and Fire",
-      "series_number": 1,
-      "author": "George R.R. Martin",
-      "year_published": 1996,
-      "edition": 1,
-      "ISBN10": "0553103547",
-      "ISBN13": "9780553103540",
-      "pages": 674,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0553103547",
-      "genre": "Fantasy",
-      "tags": ["game of thrones", "fantasy"],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter and the Deathly Hallows",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 7,
-      "author": "J.K. Rowling",
-      "year_published": 2007,
-      "edition": 1,
-      "ISBN10": "0545010225",
-      "ISBN13": "9780545010221",
-      "pages": 759,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0545139708",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter and the Half-Blood Prince",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 6,
-      "author": "J.K. Rowling",
-      "year_published": 2005,
-      "edition": 1,
-      "ISBN10": "0439784549",
-      "ISBN13": "9780439785969",
-      "pages": 652,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0439785960",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter and the Order of the Phoenix",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 5,
-      "author": "J.K. Rowling",
-      "year_published": 2003,
-      "edition": 1,
-      "ISBN10": "043935806X",
-      "ISBN13": "9780439358064",
-      "pages": 870,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/043935806X",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter And The Goblet Of Fire",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 4,
-      "author": "J.K. Rowling",
-      "year_published": 2000,
-      "edition": 1,
-      "ISBN10": "0439139597",
-      "ISBN13": "9780439139595",
-      "pages": 734,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0439139597",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter And The Prisoner Of Azkaban",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 3,
-      "author": "J.K. Rowling",
-      "year_published": 1999,
-      "edition": 1,
-      "ISBN10": "0439136350",
-      "ISBN13": "9780439136358",
-      "pages": 435,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0439136350",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter and the Chamber of Secrets",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 2,
-      "author": "J.K. Rowling",
-      "year_published": 1999,
-      "edition": 1,
-      "ISBN10": "0439068464",
-      "ISBN13": "9780439068466",
-      "pages": 341,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0439064864",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "tagline": null,
-      "series": "Harry Potter",
-      "series_number": 1,
-      "author": "J.K. Rowling",
-      "year_published": 1997,
-      "edition": 1,
-      "ISBN10": "0590353403",
-      "ISBN13": "9781338596700",
-      "pages": 309,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/1338596705",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Return of the King",
-      "tagline": null,
-      "series": "The Lord of the Rings",
-      "series_number": 3,
-      "author": "J.R.R Tolkien",
-      "year_published": 1955,
-      "edition": 1,
-      "ISBN10": "039548930X",
-      "ISBN13": "9780395489307",
-      "pages": 311,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/039548930X",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Two Towers",
-      "tagline": null,
-      "series": "The Lord of the Rings",
-      "series_number": 2,
-      "author": "J.R.R Tolkien",
-      "year_published": 1955,
-      "edition": 1,
-      "ISBN10": "0395489334",
-      "ISBN13": "9780395489338",
-      "pages": 352,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0395489334",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    },
-    {
-      "title": "The Fellowship of the Ring",
-      "tagline": null,
-      "series": "The Lord of the Rings",
-      "series_number": 1,
-      "author": "J.R.R Tolkien",
-      "year_published": 1954,
-      "edition": 1,
-      "ISBN10": "0395489318",
-      "ISBN13": null,
-      "pages": 423,
-      "coverImage": null,
-      "url": "https://www.amazon.com/dp/0395489326",
-      "genre": "Fantasy",
-      "tags": [],
-      "read": {
-        "month": null,
-        "year": null,
-        "stars": null,
-        "review": null
-      }
-    }
-  ]
-}
+        "year": 2021
+      }
+
+    ],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Discipline Equals Freedom",
+    "tagline": null,
+    "author": "Jocko Willink",
+    "year_published": 2017,
+    "edition": 1,
+    "ISBN10": "1250156945",
+    "ISBN13": "9781250156945",
+    "ASIN": "1250156947",
+    "pages": 199,
+    "url": "https://www.amazon.com/dp/1250156947",
+    "genre": "Self-Help",
+    "tags": ["self-help", "motivation"],
+    "dates_read": [{
+      "month": 7,
+      "year": 2020
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Stillness Is the Key",
+    "tagline": null,
+    "series": "The Way, the Enemy, and the Key",
+    "author": "Ryan Holiday",
+    "year_published": 2019,
+    "edition": 1,
+    "ISBN10": "0525538585",
+    "ISBN13": "9780525538585",
+    "pages": 288,
+    "url": "https://www.amazon.com/dp/0525538585",
+    "genre": "Self-Help",
+    "tags": ["self-help", "stoicism", "philosophy"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Ego Is the Enemy",
+    "tagline": null,
+    "series": "The Way, the Enemy, and the Key",
+    "author": "Ryan Holiday",
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "1591847818",
+    "ISBN13": "9781591847816",
+    "pages": 217,
+    "url": "https://www.amazon.com/gp/product/1591847818/",
+    "genre": "Self-Help",
+    "tags": ["self-help", "stoicism", "philosophy"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Obstacle Is the Way",
+    "tagline": "The Timeless Art of Turning Trials into Triumph",
+    "series": "The Way, the Enemy, and the Key",
+    "author": "Ryan Holiday",
+    "year_published": 2014,
+    "edition": 1,
+    "ISBN10": "1591846358",
+    "ISBN13": "9781591846352",
+    "pages": 224,
+    "url": "https://www.amazon.com/dp/1591846358/",
+    "genre": "Self-Help",
+    "tags": ["self-help", "stoicism", "philosophy"],
+    "dates_read": [{
+      "month": 5,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Man's Search for Meaning",
+    "tagline": null,
+    "author": "Viktor E. Frankl",
+    "year_published": 1946,
+    "edition": 1,
+    "ISBN10": "1416524282",
+    "ISBN13": "9781416524281",
+    "ASIN": "1416524282",
+    "pages": 165,
+    "url": "https://www.amazon.com/dp/1416524282",
+    "genre": "Psychology",
+    "tags": ["psychology", "philosophy"],
+    "dates_read": [{
+      "month": 4,
+      "year": 2020
+    }, {
+      "month": 6,
+      "year": 2021
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "The Diamond Age",
+    "tagline": "Or, a Young Lady's Illustrated Primer",
+    "author": "Neal Stephenson",
+    "year_published": 2000,
+    "edition": 1,
+    "ISBN10": "0553380966",
+    "ISBN13": "9780553380965",
+    "pages": 499,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0553380966",
+    "genre": "Science Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": 4,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Hobbit",
+    "tagline": "Or There and Back Again",
+    "author": "J.R.R. Tolkien",
+    "year_published": 1937,
+    "edition": 2,
+    "ISBN10": "0618162216",
+    "ISBN13": " 9780618968633",
+    "pages": 330,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0618968636",
+    "genre": "Fantasy",
+    "tags": ["must-dates_read"],
+    "dates_read": [{
+      "month": 3,
+      "year": 2020
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Total Control",
+    "tagline": "High Performance Street Riding Techniques",
+    "author": "Lee Parks",
+    "year_published": 2015,
+    "edition": 2,
+    "ISBN10": "0760343446",
+    "ISBN13": "9780760343449",
+    "pages": 187,
+    "url": "https://www.amazon.com/dp/0760343446",
+    "genre": "Motorcycling",
+    "tags": ["motorcycling", "must-dates_read"],
+    "dates_read": [{
+      "month": 2,
+      "year": 2020
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "A Wrinkle In Time",
+    "tagline": null,
+    "author": "Madeleine L'engle",
+    "year_published": 1962,
+    "edition": 1,
+    "ISBN10": "0312367546",
+    "ISBN13": "9780312367541",
+    "pages": 203,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0312367546",
+    "genre": "Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": 1,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Habit Stacking",
+    "tagline": "127 Small Changes to Improve Your Health, Wealth, and Happiness",
+    "author": "S.J. Scott",
+    "year_published": 2017,
+    "edition": 2,
+    "ISBN10": "1545339120",
+    "ISBN13": "9781545339121",
+    "pages": 330,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1545339120",
+    "genre": "Self-Help",
+    "tags": ["self-help", "habits", "productivity"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2020
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Murder on the Orient Express",
+    "tagline": "A Hercule Poirot Mystery",
+    "series": "Hercule Poirot Mysteries",
+    "author": "Agatha Christie",
+    "year_published": 1934,
+    "edition": 1,
+    "ISBN10": "0425173933",
+    "ISBN13": "9780062073495",
+    "pages": 245,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0062073494",
+    "genre": "Mystery",
+    "tags": ["murder", "mystery", "crime"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Extreme Ownership",
+    "tagline": "How U.S. Navy SEALs Lead and Win",
+    "author": ["Jocko Willink", "Leif Babin"],
+    "year_published": 2015,
+    "edition": 2,
+    "ISBN10": "1250183866",
+    "ISBN13": "9781250183866",
+    "ASIN": "1250183863",
+    "pages": 312,
+    "url": "https://www.amazon.com/dp/1250183863",
+    "genre": "Leadership",
+    "tags": ["leadership", "Navy SEALs"],
+    "dates_read": [{
+      "month": 11,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Ghost Rider",
+    "tagline": "Travels on the Healing Road",
+    "author": "Neil Peart",
+    "year_published": 2002,
+    "edition": 1,
+    "ISBN10": "1550225480",
+    "ISBN13": "9781550225488",
+    "pages": 460,
+    "url": "https://www.amazon.com/dp/1550225480",
+    "genre": "Travel",
+    "tags": ["death", "grief", "travel", "motorcycling"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Virtues of War",
+    "tagline": "A Novel of Alexander the Great",
+    "author": "Steven Pressfield",
+    "year_published": 2005,
+    "edition": 1,
+    "ISBN10": "0553382055",
+    "ISBN13": "9780553382051",
+    "pages": 344,
+    "url": "https://www.amazon.com/dp/0553382055",
+    "genre": "Fiction",
+    "tags": ["must-dates_read", "war"],
+    "dates_read": [{
+      "month": 8,
+      "year": 2019
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "The Revenge of Analog",
+    "tagline": "Real Things and Why They Matter",
+    "author": "David Sax",
+    "year_published": 2017,
+    "edition": 1,
+    "ISBN10": "1610398211",
+    "ISBN13": "9781610398213",
+    "pages": 204,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1610398211",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "12 Rules for Life",
+    "tagline": "An Antidote to Chaos",
+    "author": "Jordan B. Peterson",
+    "year_published": 2018,
+    "edition": 1,
+    "ISBN10": "0345816021",
+    "ISBN13": "9780345816023",
+    "pages": 368,
+    "url": "https://www.amazon.com/dp/0345816021",
+    "genre": "Self-Help",
+    "tags": ["self-help", "psychology"],
+    "dates_read": [{
+      "month": 7,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "tagline": "An Inquiry Into Values",
+    "author": "Robert M. Pirsig",
+    "year_published": 1974,
+    "edition": 1,
+    "ISBN10": "0060839872",
+    "ISBN13": "9780060839871",
+    "pages": 430,
+    "url": "https://www.amazon.com/dp/0060839872",
+    "genre": "Philosophy",
+    "tags": ["philosophy", "motorcycling"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Road",
+    "tagline": null,
+    "author": "Cormac McCarthy",
+    "year_published": 2006,
+    "edition": 1,
+    "ISBN10": "0307387899",
+    "ISBN13": "9780307387899",
+    "ASIN": "0307387895",
+    "pages": 287,
+    "url": "https://www.amazon.com/dp/0307387895",
+    "genre": "Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": 4,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Proficient Motorcycling",
+    "tagline": "The Ultimate Guide to Riding Well",
+    "author": "David L. Hough",
+    "year_published": 2000,
+    "edition": 1,
+    "ISBN10": "1889540536",
+    "ISBN13": "9781889540535",
+    "pages": 250,
+    "url": "https://www.amazon.com/dp/1889540536",
+    "genre": "Motorcycling",
+    "tags": ["motorcycling", "must-dates_read"],
+    "dates_read": [{
+      "month": 3,
+      "year": 2019
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Traffic",
+    "tagline": "Why We Drive the Way We Do (and What It Says About Us)",
+    "author": "Tom Vanderbilt",
+    "year_published": 2009,
+    "edition": 1,
+    "ISBN10": "0307277194",
+    "ISBN13": "9780307277190",
+    "pages": 416,
+    "url": "https://www.amazon.com/dp/0307277194",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": 3,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Power of Moments",
+    "tagline": "Why Certain Experiences Have Extraordinary Impact",
+    "author": "Chip Heath",
+    "year_published": 2017,
+    "edition": 1,
+    "ISBN10": "1501147765",
+    "ISBN13": "9781501147760",
+    "pages": 320,
+    "url": "https://www.amazon.com/dp/1501147765",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": 2,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Five People You Meet in Heaven",
+    "tagline": null,
+    "author": "Mitch Albom",
+    "year_published": 2003,
+    "edition": 1,
+    "ISBN10": "1401308589",
+    "ISBN13": "9781401308582",
+    "pages": 196,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1401308589/",
+    "genre": "Fiction",
+    "tags": ["death"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "For One More Day",
+    "tagline": null,
+    "author": "Mitch Albom",
+    "year_published": 2006,
+    "edition": 1,
+    "ISBN10": "1401309577",
+    "ISBN13": "9781401309572",
+    "pages": 197,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1401309577",
+    "genre": "Fiction",
+    "tags": ["death"],
+    "dates_read": [{
+      "month": 1,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Why Gender Matters",
+    "tagline": "What Parents and Teachers Need to Know about the Emerging Science of Sex Differences",
+    "author": "Dr. Leonard Sax",
+    "year_published": 2005,
+    "edition": 2,
+    "ISBN10": "0451497775",
+    "ISBN13": "9780451497772",
+    "pages": 332,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0451497775",
+    "genre": "Parenting",
+    "tags": ["parenting", "psychology"],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Collapse of Parenting",
+    "tagline": "How We Hurt Our Kids When We Treat Them Like Grown-Ups",
+    "author": "Dr. Leonard Sax",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "0465094287",
+    "ISBN13": "9780465094288",
+    "pages": 263,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0465094287",
+    "genre": "Parenting",
+    "tags": ["parenting", "psychology"],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Just Mercy",
+    "tagline": "A Story of Justice and Redemption",
+    "author": "Bryan Stevenson",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "0812984965",
+    "ISBN13": "9780812984965",
+    "ASIN": "081298496X",
+    "pages": 368,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/081298496X",
+    "genre": "Autobiography",
+    "tags": ["racism", "must-dates_read"],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Gates of Fire",
+    "tagline": "An Epic Novel of the Battle of Thermopylae",
+    "author": "Steven Pressfield",
+    "year_published": 1998,
+    "edition": null,
+    "ISBN10": "055338368X",
+    "ISBN13": "9780553383683",
+    "pages": 384,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/055338368X",
+    "genre": "Fiction",
+    "tags": ["war", "must-dates_read"],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "Seveneves",
+    "tagline": null,
+    "author": "Neal Stephenson",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "0062334514",
+    "ISBN13": "9780062334510",
+    "pages": 880,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0062334514",
+    "genre": "Science Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2019
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Daily Stoic",
+    "tagline": "366 Meditations on Wisdom, Perseverance, and the Art of Living",
+    "author": "Ryan Holiday",
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "0735211736",
+    "ISBN13": "9780735211735",
+    "pages": 416,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0735211736",
+    "genre": "Philosophy",
+    "tags": ["stoicism", "philosophy"],
+    "dates_read": [{
+      "month": null,
+      "year": 2018
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Meditations: A New Translation",
+    "tagline": null,
+    "author": ["Marcus Aurelius", "Gregory Hays"],
+    "year_published": 2003,
+    "edition": 1,
+    "ISBN10": "0812968255",
+    "ISBN13": "9780812968255",
+    "pages": 256,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0812968255",
+    "genre": "Philosophy",
+    "tags": ["stoicism", "philosophy"],
+    "dates_read": [{
+      "month": 6,
+      "year": 2018
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "When Breath Becomes Air",
+    "tagline": null,
+    "author": "Paul Kalanithi",
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "081298840X",
+    "ISBN13": "9780812988406",
+    "pages": 225,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/081298840X",
+    "genre": "Memoir",
+    "tags": ["life", "death"],
+    "dates_read": [{
+      "month": null,
+      "year": 2018
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "100 Deadly Skills",
+    "tagline": "The SEAL Operative's Guide to Eluding Pursuers, Evading Capture, and Surviving Any Dangerous Situation",
+    "author": "Clint Emerson",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "147679605X",
+    "ISBN13": "9781476796055",
+    "pages": 243,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/147679605X",
+    "genre": null,
+    "tags": ["skills", "Navy SEALs"],
+    "dates_read": [{
+      "month": null,
+      "year": 2018
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Beneath a Scarlet Sky",
+    "tagline": null,
+    "author": "Mark Sullivan",
+    "year_published": 2017,
+    "edition": 1,
+    "ISBN10": "1503943372",
+    "ISBN13": "9781503943377",
+    "pages": 523,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1503943372",
+    "genre": "Fiction",
+    "tags": ["ww2", "must-dates_read"],
+    "dates_read": [{
+      "month": null,
+      "year": 2017
+    }],
+    "stars": 5,
+    "review": null
+
+  }, {
+    "title": "So Good They Can't Ignore You",
+    "tagline": "Why Skills Trump Passion in the Quest for Work You Love",
+    "author": "Calvin C. Newport",
+    "year_published": 2012,
+    "edition": 1,
+    "ISBN10": "1455509124",
+    "ISBN13": "9781455509126",
+    "pages": 253,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1455509124",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2017
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Be Prepared",
+    "tagline": "A Practical Handbook for New Dads",
+    "author": ["Gary Greenberg", "Jeannie Hayden"],
+    "year_published": 2004,
+    "edition": 1,
+    "ISBN10": "0743251547",
+    "ISBN13": "9780743251549",
+    "pages": 240,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0743251547",
+    "genre": "Parenting",
+    "tags": ["parenting", "fatherhood"],
+    "dates_read": [{
+      "month": null,
+      "year": 2017
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Expectant Father",
+    "tagline": "Facts, Tips, and Advice for Dads-to-Be",
+    "author": ["Armin A. Brott", "Jennifer Ash"],
+    "year_published": 2010,
+    "edition": 3,
+    "ISBN10": "0789210770",
+    "ISBN13": "9780789210777",
+    "pages": 352,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0789210770",
+    "genre": "Parenting",
+    "tags": ["parenting", "fatherhood"],
+    "dates_read": [{
+      "month": null,
+      "year": 2017
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Let Them Eat Dirt",
+    "tagline": "Saving Your Child from an Oversanitized World",
+    "author": ["Dr. B. Brett Finlay OC PhD", "Dr. Marie-Claire Arrieta PhD"],
+    "year_published": 2016,
+    "edition": 1,
+    "ISBN10": "1616206497",
+    "ISBN13": "9781616206499",
+    "pages": 267,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1616206497",
+    "genre": "Parenting",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2016
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "With the Old Breed",
+    "tagline": "At Peleliu and Okinawa",
+    "author": "Eugene B. Sledge",
+    "year_published": 1981,
+    "edition": 1,
+    "ISBN10": "0891419063",
+    "ISBN13": "9780891419068",
+    "pages": 315,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0891419063",
+    "genre": "War",
+    "tags": ["ww2", "war", "marines", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2016
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Bad Science",
+    "tagline": "Quacks, Hacks, and Big Pharma Flacks",
+    "author": "Ben Goldacre",
+    "year_published": 2010,
+    "edition": 1,
+    "ISBN10": "0865479180",
+    "ISBN13": "9780865479180",
+    "ASIN": "0865479186",
+    "pages": 269,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0865479186",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2016
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The 5 Love Languages",
+    "tagline": "The Secret to Love that Lasts",
+    "author": "Gary Chapman",
+    "year_published": 1992,
+    "edition": 1,
+    "ISBN10": "080241270X",
+    "ISBN13": "9780802412706",
+    "pages": 208,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/080241270X",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2016
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The 7 Habits of Highly Effective People",
+    "tagline": "Powerful Lessons in Personal Change",
+    "author": "Stephen R. Covey",
+    "year_published": 1989,
+    "edition": 1,
+    "ISBN10": "1451639612",
+    "ISBN13": "9781451639612",
+    "ASIN": "1451639619",
+    "pages": 432,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1451639619",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2016
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Ender's Game",
+    "tagline": null,
+    "author": "Orson Scott Card",
+    "year_published": 1994,
+    "edition": 1,
+    "ISBN10": "0812550706",
+    "ISBN13": "9780812550702",
+    "pages": 352,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0812550706",
+    "genre": "Science Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Resilience",
+    "tagline": "Hard-Won Wisdom for Living a Better Life",
+    "author": "Eric Greitens",
+    "year_published": 2015,
+    "edition": 1,
+    "ISBN10": "054432398X",
+    "ISBN13": "9780544323988",
+    "pages": 320,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/054432398X/",
+    "genre": null,
+    "tags": ["Navy SEALs"],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Some We Love, Some We Hate, Some We Eat",
+    "tagline": "Why It's So Hard to Think Straight About Animals",
+    "author": "Hal Herzog",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "0061730856",
+    "ISBN13": "9780061730856",
+    "ASIN": "0061730858",
+    "pages": 326,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0061730858",
+    "genre": null,
+    "tags": ["food", "animals", "animal rights", "psychology"],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Power of Habit",
+    "tagline": "Why We Do What We Do in Life and Business",
+    "author": "Charles Duhigg ",
+    "year_published": 2014,
+    "edition": 1,
+    "ISBN10": "081298160X",
+    "ISBN13": "9780812981605",
+    "pages": 365,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/081298160X",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Circle",
+    "tagline": null,
+    "author": "Dave Eggers",
+    "year_published": 2014,
+    "edition": 1,
+    "ISBN10": "0345807294",
+    "ISBN13": "9780345807298",
+    "pages": 497,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0345807294",
+    "genre": "Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Animal Farm",
+    "tagline": null,
+    "author": "George Orwell",
+    "year_published": 1945,
+    "edition": 1,
+    "ISBN10": "0451526342",
+    "ISBN13": "9780451526342",
+    "ASIN": "0451526341",
+    "pages": 141,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0451526341",
+    "genre": "Fiction",
+    "tags": ["politics"],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "1984",
+    "tagline": null,
+    "author": "George Orwell",
+    "year_published": 1949,
+    "edition": 1,
+    "ISBN10": "0452262933",
+    "ISBN13": "9780452262935",
+    "pages": 326,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0452262933",
+    "genre": "Fiction",
+    "tags": ["politics"],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The 4-Hour Work Week",
+    "tagline": "Escape the 9-5, Live Anywhere and Join the New Rich",
+    "author": "Timothy Ferriss",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "0091929113",
+    "ISBN13": "9780091929114",
+    "pages": 416,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0091929113",
+    "genre": "Productivity",
+    "tags": ["productivity", "investing"],
+    "dates_read": [{
+      "month": null,
+      "year": 2015
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Spartan Up",
+    "tagline": "A Take-No-Prisoners Guide to Overcoming Obstacles and Achieving Peak Performance in Life",
+    "author": "Joe De Sena",
+    "year_published": 2014,
+    "edition": 1,
+    "ISBN10": "0544570219",
+    "ISBN13": "9780544570214",
+    "pages": 224,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0544570219",
+    "genre": "Fitness",
+    "tags": ["fitness", "exercise", "racing", "obstacles", "motivation"],
+    "dates_read": [{
+      "month": null,
+      "year": 2014
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Big Picture",
+    "tagline": "11 Laws That Will Change Your Life",
+    "author": "Tony Horton",
+    "year_published": 2014,
+    "edition": 1,
+    "ISBN10": "0062282392",
+    "ISBN13": "9780062282392",
+    "pages": 272,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0062282395",
+    "genre": "Fitness",
+    "tags": ["fitness", "exercise", "motivation"],
+    "dates_read": [{
+      "month": null,
+      "year": 2014
+    }],
+    "stars": 4,
+    "review": null
+
+  }, {
+    "title": "The Way of the SEAL",
+    "tagline": "Think Like and Elite Warrior to Lead and Succeed",
+    "author": ["Mark Divine", "Allyson Edelhertz Machate"],
+    "edition": 1,
+    "year_published": 2014,
+    "ISBN10": "1621454037",
+    "ISBN13": "9781621454038",
+    "pages": 204,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1621454037",
+    "genre": null,
+    "tags": ["Navy SEALs", "motivation", "leadership", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2014
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Foreign Enemies And Traitors",
+    "tagline": null,
+    "series": "The Enemies Trilogy",
+    "series_number": 3,
+    "author": "Matthew Bracken",
+    "year_published": 2009,
+    "edition": 1,
+    "ISBN10": "0972831037",
+    "ISBN13": "9780972831031",
+    "pages": 576,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0972831037",
+    "genre": "Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2014
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Domestic Enemies: The Reconquista",
+    "tagline": null,
+    "series": "The Enemies Trilogy",
+    "series_number": 2,
+    "author": "Matthew Bracken",
+    "year_published": 2006,
+    "edition": 1,
+    "ISBN10": "0972831029",
+    "ISBN13": "9780972831024",
+    "pages": 544,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0972831029",
+    "genre": "Fiction",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2014
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Enemies Foreign and Domestic",
+    "tagline": null,
+    "series": "The Enemies Trilogy",
+    "series_number": 1,
+    "author": "Matthew Bracken",
+    "year_published": 2003,
+    "edition": 1,
+    "ISBN10": "0972831010",
+    "ISBN13": "9780972831017",
+    "pages": 576,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0972831010",
+    "genre": null,
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Service",
+    "tagline": "A Navy SEAL at War",
+    "author": ["Marcus Luttrell", "James D. Hornfischer"],
+    "year_published": 2012,
+    "edition": 1,
+    "ISBN10": "0316185363",
+    "ISBN13": "9780316185363",
+    "ASIN": "0316185361",
+    "pages": 384,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0316185361",
+    "genre": "Biography",
+    "tags": ["Navy SEALs", "war", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "American Sniper",
+    "tagline": "The Autobiography of the Most Lethal Sniper in U.S. Military History",
+    "author": ["Chris Kyle", "Scott McEwen", "Jim DeFelice"],
+    "year_published": 2013,
+    "edition": 1,
+    "ISBN10": "0062238868",
+    "ISBN13": "9780062238863",
+    "pages": 448,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0062238868",
+    "genre": "Autobiography",
+    "tags": ["Navy SEALs", "war", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Lone Survivor",
+    "tagline": "The Eyewitness Account of Operation Redwing and the Lost Heroes of SEAL Team 10",
+    "author": ["Marcus Luttrell", "Patrick Robinson"],
+    "year_published": 2008,
+    "edition": 1,
+    "ISBN10": "0316067601",
+    "ISBN13": "9780316067607",
+    "pages": 390,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0316067601",
+    "genre": "War",
+    "tags": ["Navy SEALs", "war"],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Inside SEAL Team Six",
+    "tagline": "My Life and Missions with America's Elite Warriors",
+    "author": "Don Mann",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "0316204307",
+    "ISBN13": "9780316204309",
+    "pages": 304,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0316204307",
+    "genre": "Military",
+    "tags": ["Navy SEALs", "war", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Navy SEAL Training: Self-Confidence ",
+    "tagline": null,
+    "author": "David Rutherford",
+    "year_published": 2012,
+    "edition": 1,
+    "ISBN10": "0980146437",
+    "ISBN13": "9780980146431",
+    "pages": 243,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0980146437",
+    "genre": null,
+    "tags": ["Navy SEALs", "motivation", "self-help", "military"],
+    "dates_read": [{
+      "month": null,
+      "year": 2013
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Dance with Dragons",
+    "tagline": null,
+    "series": "A Song of Ice and Fire",
+    "series_number": 5,
+    "author": "George R.R. Martin",
+    "year_published": 2011,
+    "edition": 1,
+    "ISBN10": "0553801473",
+    "ISBN13": "9780553801477",
+    "pages": 959,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0553801473",
+    "genre": "Fantasy",
+    "tags": ["game of thrones", "fantasy"],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Feast for Crows",
+    "tagline": null,
+    "series": "A Song of Ice and Fire",
+    "series_number": 4,
+    "author": "George R.R. Martin",
+    "year_published": 2005,
+    "edition": 1,
+    "ISBN10": "0553801503",
+    "ISBN13": "9780553801507",
+    "pages": 684,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0008115435",
+    "genre": "Fantasy",
+    "tags": ["game of thrones", "fantasy"],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Storm of Swords",
+    "tagline": null,
+    "series": "A Song of Ice and Fire",
+    "series_number": 3,
+    "author": "George R.R. Martin",
+    "year_published": 2000,
+    "edition": 1,
+    "ISBN10": "0553106635",
+    "ISBN13": "9780553106633",
+    "pages": 924,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0553106635",
+    "genre": "Fantasy",
+    "tags": ["game of thrones", "fantasy"],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Clash of Kings",
+    "tagline": null,
+    "series": "A Song of Ice and Fire",
+    "series_number": 2,
+    "author": "George R.R. Martin",
+    "year_published": 1999,
+    "edition": 1,
+    "ISBN10": "0553108034",
+    "ISBN13": "9780553108033",
+    "pages": 728,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0553108034",
+    "genre": "Fantasy",
+    "tags": ["game of thrones", "fantasy"],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "A Game of Thrones",
+    "tagline": null,
+    "series": "A Song of Ice and Fire",
+    "series_number": 1,
+    "author": "George R.R. Martin",
+    "year_published": 1996,
+    "edition": 1,
+    "ISBN10": "0553103547",
+    "ISBN13": "9780553103540",
+    "pages": 674,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0553103547",
+    "genre": "Fantasy",
+    "tags": ["game of thrones", "fantasy"],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter and the Deathly Hallows",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 7,
+    "author": "J.K. Rowling",
+    "year_published": 2007,
+    "edition": 1,
+    "ISBN10": "0545010225",
+    "ISBN13": "9780545010221",
+    "pages": 759,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0545139708",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 6,
+    "author": "J.K. Rowling",
+    "year_published": 2005,
+    "edition": 1,
+    "ISBN10": "0439784549",
+    "ISBN13": "9780439785969",
+    "pages": 652,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0439785960",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 5,
+    "author": "J.K. Rowling",
+    "year_published": 2003,
+    "edition": 1,
+    "ISBN10": "043935806X",
+    "ISBN13": "9780439358064",
+    "pages": 870,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/043935806X",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter And The Goblet Of Fire",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 4,
+    "author": "J.K. Rowling",
+    "year_published": 2000,
+    "edition": 1,
+    "ISBN10": "0439139597",
+    "ISBN13": "9780439139595",
+    "pages": 734,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0439139597",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter And The Prisoner Of Azkaban",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 3,
+    "author": "J.K. Rowling",
+    "year_published": 1999,
+    "edition": 1,
+    "ISBN10": "0439136350",
+    "ISBN13": "9780439136358",
+    "pages": 435,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0439136350",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 2,
+    "author": "J.K. Rowling",
+    "year_published": 1999,
+    "edition": 1,
+    "ISBN10": "0439068464",
+    "ISBN13": "9780439068466",
+    "pages": 341,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0439064864",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "tagline": null,
+    "series": "Harry Potter",
+    "series_number": 1,
+    "author": "J.K. Rowling",
+    "year_published": 1997,
+    "edition": 1,
+    "ISBN10": "0590353403",
+    "ISBN13": "9781338596700",
+    "pages": 309,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/1338596705",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Return of the King",
+    "tagline": null,
+    "series": "The Lord of the Rings",
+    "series_number": 3,
+    "author": "J.R.R Tolkien",
+    "year_published": 1955,
+    "edition": 1,
+    "ISBN10": "039548930X",
+    "ISBN13": "9780395489307",
+    "pages": 311,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/039548930X",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Two Towers",
+    "tagline": null,
+    "series": "The Lord of the Rings",
+    "series_number": 2,
+    "author": "J.R.R Tolkien",
+    "year_published": 1955,
+    "edition": 1,
+    "ISBN10": "0395489334",
+    "ISBN13": "9780395489338",
+    "pages": 352,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0395489334",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }, {
+    "title": "The Fellowship of the Ring",
+    "tagline": null,
+    "series": "The Lord of the Rings",
+    "series_number": 1,
+    "author": "J.R.R Tolkien",
+    "year_published": 1954,
+    "edition": 1,
+    "ISBN10": "0395489318",
+    "ISBN13": "9780395489318",
+    "pages": 423,
+    "cover_image": null,
+    "url": "https://www.amazon.com/dp/0395489326",
+    "genre": "Fantasy",
+    "tags": [],
+    "dates_read": [{
+      "month": null,
+      "year": null
+    }],
+    "stars": null,
+    "review": null
+  }
+]
