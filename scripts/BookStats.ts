@@ -18,33 +18,23 @@ export function getYearsReading(firstYear: number, lastYear: number): number[] {
   return yearsReading
 }
 
-export function getFirstYearRead(books: book[]) {
+export function getFirstYearRead(books: book[]): number {
   let earliestYear = 9999
   books.forEach((book) => {
-    if (book.dates_read.length > 1) {
-      book.dates_read.forEach((date) => {
-        if (date?.year != null && date.year < earliestYear) earliestYear = date.year
-      })
-    }
-    else if (book.dates_read[0]?.year != null && book.dates_read[0].year < earliestYear) {
-      earliestYear = book.dates_read[0].year
-    }
+    book.dates_read.forEach((date) => {
+      if (date?.year != null && date.year < earliestYear) earliestYear = date.year
+    })
   })
   return earliestYear
 }
 
 //TODO This function basically duplicates getFirstYearRead. Try to remove duplication.
-export function getLastYearRead(books: book[]) {
+export function getLastYearRead(books: book[]): number {
   let latestYear = 0
-    books.forEach((book) => {
-    if (book.dates_read.length > 1) {
-      book.dates_read.forEach((date) => {
-        if (date?.year != null && date.year > latestYear) latestYear = date.year
-      })
-    }
-    else if (book.dates_read[0]?.year != null && book.dates_read[0].year > latestYear) {
-      latestYear = book.dates_read[0].year
-    }
+  books.forEach((book) => {
+    book.dates_read.forEach((date) => {
+      if (date?.year != null && date.year > latestYear) latestYear = date.year
+    })
   })
   return latestYear
 }
@@ -52,18 +42,14 @@ export function getLastYearRead(books: book[]) {
 export function getPagesReadByYear(books: book[], year: number): number {
   let totalPagesForYear = 0
   books.forEach((book) => {
-    if (book.dates_read.length > 1) {
-      book.dates_read.forEach((date) => {
-        if (date?.year != null  && date.year === year) totalPagesForYear += book.pages
-      })
-    }
-    else if (book.dates_read[0]?.year  != null && book.dates_read[0].year === year) totalPagesForYear += book.pages
+    book.dates_read.forEach((date) => {
+      if (date?.year != null && date.year === year) totalPagesForYear += book.pages
+    })
   })
   return totalPagesForYear
 }
 
-// Returns the title, tagline (if it has one), and author of all books read in a specified year.
-export function getBooksReadByYear(books: book[], year: number) {
+export function getBooksReadByYear(books: book[], year: number): string[] {
   let booksReadInYear: string[] = []
   books.forEach((book) => {
     for (const date of book.dates_read) {
@@ -78,18 +64,15 @@ export function getBooksReadByYear(books: book[], year: number) {
   return booksReadInYear
 }
 
-// Returns an object containing key:value pairs for the "year":"number of books read" for every year a book was read
+// Returns an object containing "year":"number of books read" properties for every year a book was read
 export function getNumberOfBooksReadByYear(books: book[], years: number[]) {
   const numberOfBooksReadByYear = {}
   years.forEach((year) => {
     let booksRead = 0
     books.forEach((book) => {
-      if (book.dates_read.length > 1) {
-        book.dates_read.forEach((date) => {
-          if (date?.year != null && date.year === year) booksRead += 1
-        })
-      }
-      else if (book.dates_read[0]?.year != null && book.dates_read[0].year === year) booksRead += 1
+      book.dates_read.forEach((date) => {
+        if (date?.year != null && date.year === year) booksRead += 1
+      })
     })
     Object.defineProperty(numberOfBooksReadByYear, year, { value: booksRead, enumerable: true });
   })
