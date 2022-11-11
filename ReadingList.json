@@ -1,4 +1,22 @@
 [{
+    "title": "Homo Deus",
+    "tagline": "A Brief History of Tomorrow",
+    "author": "Yuval Noah Harari",
+    "year_published": 2018,
+    "edition": 1,
+    "ISBN10": "0062464345",
+    "ISBN13": "9780062464347",
+    "pages": 402,
+    "url": "https://www.amazon.com/dp/0062464345",
+    "genre": "Science",
+    "tags": ["science", "history", "evolution"],
+    "dates_read": [{
+      "month": 10,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
     "title": "Sapiens",
     "tagline": "A Brief History of Humankind",
     "author": "Yuval Noah Harari",
@@ -140,6 +158,9 @@
     "genre": "Buddhism",
     "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
     "dates_read": [{
+      "month": 11,
+      "year": 2022
+    }, {
       "month": 4,
       "year": 2022
     }, {
@@ -313,6 +334,9 @@
     "genre": "Self-Help",
     "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
     "dates_read": [{
+      "month": 11,
+      "year": 2022
+    }, {
       "month": 10,
       "year": 2022
     }, {
@@ -328,7 +352,7 @@
       "month": 11,
       "year": 2021
     }],
-    "stars": null,
+    "stars": 5,
     "review": null
   }, {
     "title": "Hell Yeah or No",
