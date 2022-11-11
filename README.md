@@ -1,8 +1,8 @@
 # My Reading List
 
-I had the idea awhile back to start keeping track of all the books I read. I decided to put the list into JSON format so I can run some simple stats and play around with the data for fun. I've tried to put together a list going back to about 2013 based on purchase history and my bookshelf/kindle but I'm sure I've missed a lot. Not important, this is really just for me anyway. The data for the years 2019 and 2020 is pretty accurate. I also included some titles from older reading of my favorite series (ie: A Song of Ice and Fire, Harry Potter, The Lord of the Rings). I plan to keep the list up to date for my own tracking going forward and maybe add a list of my favorite essays as well.
+I had the idea awhile back to start keeping track of all the books I read. I decided to put the list into JSON format so I can run some simple stats and play around with the data for fun. I've tried to put together a list going back to about 2013 based on purchase history and my bookshelf/kindle but I'm sure I've missed a lot. Not important; this is just for me anyway. I also included some titles from older reading of my favorite series (ie: A Song of Ice and Fire, Harry Potter, The Lord of the Rings). I plan to keep the list up to date for my own tracking going forward and maybe add a list of my favorite essays as well.
 
-> "In my whole life, I have known no wise people (over a broad subject matter area) who didn’t read all the time – none, zero." — Charlie Munger
+> "In my whole life, I have known no wise people (over a broad subject matter area) who didn't read all the time – none, zero." — Charlie Munger
 
 ## Notes on Reading
 
