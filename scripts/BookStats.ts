@@ -16,6 +16,11 @@ function getFirstAndLastYears(books: book[]): number[] {
   return [yearsInOrder[0], yearsInOrder[yearsInOrder.length - 1]]
 }
 
+export function getTotalYearsReading(books: book[]): number {
+  const [firstYear, lastYear] = getFirstAndLastYears(books)
+  return lastYear - firstYear
+}
+
 export function getAllYears(books: book[]): number[] {
   const [firstYear, lastYear] = getFirstAndLastYears(books)
   const yearsReading: number[] = []
@@ -61,16 +66,34 @@ export function getBooksReadByYear(books: book[], year: number): string[] {
 }
 
 // Returns an object containing "year":"number of books read" properties for every year a book was read
-export function getNumberOfBooksReadByYear(books: book[], years: number[]) {
-  const numberOfBooksReadByYear = {}
-  years.forEach((year) => {
-    let booksRead = 0
-    books.forEach((book) => {
+export function getNumberOfBooksReadByYear(books: book[]) {
+  const numberOfBooksReadByYear = new Map<number, number>()
+  books.forEach((book) => {
       book.dates_read.forEach((date) => {
-        if (date?.year != null && date.year === year) booksRead += 1
+        if (date?.year != null) {
+          if (numberOfBooksReadByYear.get(date.year) != undefined) {
+            let currentCount = numberOfBooksReadByYear.get(date.year)
+            //@ts-ignore
+            numberOfBooksReadByYear.set(date.year, currentCount += 1)
+          } else {
+            numberOfBooksReadByYear.set(date.year, 1)
+          }
+        }
       })
     })
-    Object.defineProperty(numberOfBooksReadByYear, year, { value: booksRead, enumerable: true });
-  })
-  return numberOfBooksReadByYear
+    
+    // Fill in any gap years with 0
+    const sortedYears = []
+    for (const key of numberOfBooksReadByYear.keys()) {
+      sortedYears.push(key)
+    }
+    sortedYears.sort((a, b) => a - b)
+    for (let i = 0; i < sortedYears.length-1; i++) {
+      if (sortedYears[i + 1] - sortedYears[i] !== 1) {
+        numberOfBooksReadByYear.set(sortedYears[i] + 1, 0)
+      }
+    }
+  
+  return Object.fromEntries(numberOfBooksReadByYear)
+  // return numberOfBooksReadByYear
 }
