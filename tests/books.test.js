@@ -2,10 +2,34 @@
 const BookStats = require('../scripts/BookStats.js')
 
 const sunnyDay = [
-  { pages: 100, dates_read: [{ month: 1, year: 2010 }] },
-  { pages: 200, dates_read: [{ month: 1, year: 2010 }] },
-  { pages: 300, dates_read: [{ month: 1, year: 2010 }] },
-  { pages: 400, dates_read: [{ month: 1, year: 2010 }] },
+  {
+    title: 'Homo Deus',
+    tagline: 'A Brief History of Tomorrow',
+    author: 'Yuval Noah Harari',
+    pages: 100,
+    dates_read: [{ month: 1, year: 2010 }],
+  },
+  {
+    title: "Zen Mind, Beginner's Mind",
+    tagline: 'Informal Talks on Zen Meditation and Practice',
+    author: 'Shunryu Suzuki',
+    pages: 200,
+    dates_read: [{ month: 1, year: 2010 }],
+  },
+  {
+    title: 'The Clean Coder',
+    tagline: 'A Code of Conduct for Professional Programmers',
+    author: 'Robert C. Martin',
+    pages: 300,
+    dates_read: [{ month: 1, year: 2010 }],
+  },
+  {
+    title: 'The Pragmatic Programmer',
+    tagline: 'Your Journey to Mastery',
+    author: ['David Thomas', 'Andrew Hunt'],
+    pages: 400,
+    dates_read: [{ month: 1, year: 2010 }],
+  },
 ]
 const multipleReads = [
   {
@@ -16,6 +40,9 @@ const multipleReads = [
     ],
   },
   {
+    title: 'JavaScript: The Definitive Guide',
+    tagline: "Master the World's Most-Used Programming Language",
+    author: 'David Flanagan',
     pages: 200,
     dates_read: [
       { month: 12, year: 2012 },
@@ -25,7 +52,13 @@ const multipleReads = [
   {
     pages: 300,
     dates_read: [
-      { month: 3, year: 2014 },
+      {
+        title: 'Clean Code',
+        tagline: 'A Handbook of Agile Software Craftsmanship',
+        author: 'Robert C. Martin',
+        month: 3,
+        year: 2014,
+      },
       { month: 4, year: 2014 },
       { month: 12, year: 2016 },
     ],
@@ -50,8 +83,26 @@ describe('Total Pages', () => {
   test('Sum pages for books read multiple times', () => {
     expect(BookStats.getTotalPagesRead(multipleReads)).toBe(1500)
   })
-  test('Sums pages when books have unexpected data inputs', () => {
+  test('Sums pages when some books have null data inputs', () => {
     expect(BookStats.getTotalPagesRead(nullInputs)).toBe(200)
+  })
+})
+
+describe('Pages by Year', () => {
+  test('Sums pages for reads of multiple books', () => {
+    expect(BookStats.getPagesReadByYear(sunnyDay, 2010)).toBe(1000)
+  })
+  test('Sums pages returns zero for year with no data', () => {
+    expect(BookStats.getPagesReadByYear(sunnyDay, 2009)).toBe(0)
+  })
+  test('Sum pages for year with one book', () => {
+    expect(BookStats.getPagesReadByYear(multipleReads, 2013)).toBe(200)
+  })
+  test('Sum pages for year with multiple reads of same book', () => {
+    expect(BookStats.getPagesReadByYear(multipleReads, 2014)).toBe(600)
+  })
+  test('Sums pages when some books have null data inputs', () => {
+    expect(BookStats.getPagesReadByYear(nullInputs, 2021)).toBe(100)
   })
 })
 
@@ -70,7 +121,23 @@ describe('Total Books', () => {
       2016: 1,
     })
   })
-  test('Sums number of books read with unexpected data inputs', () => {
+  test('Sums number of books read with null data inputs', () => {
     expect(BookStats.getNumberOfBooksReadByYear(nullInputs, [2021, 2022])).toEqual({ 2021: 1, 2022: 1 })
+  })
+})
+
+describe('Books Read in Year', () => {
+  test('Returns book information for multiple books read in the same year', () => {
+    expect(BookStats.getBooksReadByYear(sunnyDay, 2010)).toEqual([
+      'Homo Deus - A Brief History of Tomorrow by Yuval Noah Harari',
+      "Zen Mind, Beginner's Mind - Informal Talks on Zen Meditation and Practice by Shunryu Suzuki",
+      'The Clean Coder - A Code of Conduct for Professional Programmers by Robert C. Martin',
+      'The Pragmatic Programmer - Your Journey to Mastery by David Thomas,Andrew Hunt',
+    ])
+  })
+  test('Returns book information for single book read when multiple years present', () => {
+    expect(BookStats.getBooksReadByYear(multipleReads, 2012)).toEqual([
+      "JavaScript: The Definitive Guide - Master the World's Most-Used Programming Language by David Flanagan",
+    ])
   })
 })
