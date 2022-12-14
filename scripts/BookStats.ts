@@ -1,16 +1,22 @@
 /**
  * * Copyright 2022 Alex Hall - https://alexpeterhall.com
  * TODO Top (arg) longest books
+ * TODO Top 10 most read books
  * TODO Must-Read books (by tag)
  */
 
-export function getTotalPagesRead(books: book[]): number {
-  let totalPages = 0
-  books.forEach((book) => totalPages += book.pages)
-  return totalPages
+export function getFirstAndLastYears(books: book[]): number[] {
+  const years = new Set<number>()
+  books.forEach((book) => {
+    book.dates_read.forEach((date) => {
+      if (date?.year != null) years.add(date.year)
+    })
+  })
+  const yearsInOrder = Array.from(years).sort((a,b) => a - b)
+  return [yearsInOrder[0], yearsInOrder[yearsInOrder.length - 1]]
 }
 
-export function getYearsReading(firstYear: number, lastYear: number): number[] {
+export function getAllYears(firstYear: number, lastYear: number): number[] {
   let yearsReading: number[] = []
   for (let i = firstYear; i <= lastYear; i++) {
     yearsReading.push(i)
@@ -18,25 +24,10 @@ export function getYearsReading(firstYear: number, lastYear: number): number[] {
   return yearsReading
 }
 
-export function getFirstYearRead(books: book[]): number {
-  let earliestYear = 9999
-  books.forEach((book) => {
-    book.dates_read.forEach((date) => {
-      if (date?.year != null && date.year < earliestYear) earliestYear = date.year
-    })
-  })
-  return earliestYear
-}
-
-//TODO This function basically duplicates getFirstYearRead. Try to remove duplication.
-export function getLastYearRead(books: book[]): number {
-  let latestYear = 0
-  books.forEach((book) => {
-    book.dates_read.forEach((date) => {
-      if (date?.year != null && date.year > latestYear) latestYear = date.year
-    })
-  })
-  return latestYear
+export function getTotalPagesRead(books: book[]): number {
+  let totalPages = 0
+  books.forEach((book) => totalPages += book.pages)
+  return totalPages
 }
 
 export function getPagesReadByYear(books: book[], year: number): number {
