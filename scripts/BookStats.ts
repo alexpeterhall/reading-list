@@ -27,11 +27,9 @@ export function getAllYears(firstYear: number, lastYear: number): number[] {
 export function getTotalPagesRead(books: book[]): number {
   let totalPages = 0
   books.forEach((book) => {
-    if (book.dates_read != null) {
-      book.dates_read.forEach((date) => {
-        if (date?.year != null) totalPages += book.pages
-      })
-    }
+    book.dates_read.forEach((date) => {
+      if (date?.year != null) totalPages += book.pages
+    })
   })
   return totalPages
 }
