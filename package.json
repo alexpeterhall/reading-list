@@ -4,7 +4,7 @@
   "name": "reading-list",
   "version": "1.0.0",
   "description": "A mostly up to date list of books I've recently read in JSON format and some basic stats.",
-  "main": "/printStats.ts",
+  "main": "/printStats.js",
   "directories": {
     "scripts": "scripts",
     "test": "tests",
@@ -21,7 +21,9 @@
     "verbose": true
   },
   "scripts": {
-    "test": "tsc && jest"
+    "build": "tsc",
+    "test": "tsc && jest",
+    "stats": "tsc && node ./printStats.js"
   },
   "repository": {
     "type": "git",
