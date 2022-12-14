@@ -5,31 +5,6 @@
  * TODO Must-Read books (by tag)
  */
 
-function getFirstAndLastYears(books: book[]): number[] {
-  const years = new Set<number>()
-  books.forEach((book) => {
-    book.dates_read.forEach((date) => {
-      if (date?.year != null) years.add(date.year)
-    })
-  })
-  const yearsInOrder = Array.from(years).sort((a,b) => a - b)
-  return [yearsInOrder[0], yearsInOrder[yearsInOrder.length - 1]]
-}
-
-export function getTotalYearsReading(books: book[]): number {
-  const [firstYear, lastYear] = getFirstAndLastYears(books)
-  return lastYear - firstYear
-}
-
-export function getAllYears(books: book[]): number[] {
-  const [firstYear, lastYear] = getFirstAndLastYears(books)
-  const yearsReading: number[] = []
-  for (let i = firstYear; i <= lastYear; i++) {
-    yearsReading.push(i)
-  }
-  return yearsReading
-}
-
 export function getTotalPagesRead(books: book[]): number {
   let totalPages = 0
   books.forEach((book) => {
@@ -95,5 +70,4 @@ export function getNumberOfBooksReadByYear(books: book[]) {
     }
   
   return Object.fromEntries(numberOfBooksReadByYear)
-  // return numberOfBooksReadByYear
 }
