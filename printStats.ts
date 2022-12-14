@@ -1,14 +1,15 @@
 import * as BookStats from './scripts/BookStats'
 import READING_LIST from './ReadingList.json'
 const BOOKS: book[] = READING_LIST,
-  [firstYear, lastYear] = BookStats.getFirstAndLastYears(BOOKS),
-  allYearsReading = BookStats.getAllYears(firstYear, lastYear),
+  allYearsReading = BookStats.getAllYears(BOOKS),
   totalYearsReading = allYearsReading.length,
   totalPagesRead = BookStats.getTotalPagesRead(BOOKS),
   numberOfBooksReadByYear = BookStats.getNumberOfBooksReadByYear(BOOKS, allYearsReading),
   averageYear = totalPagesRead / totalYearsReading,
   averageWeek = totalPagesRead / (totalYearsReading * 52),
   averageDay = totalPagesRead / (totalYearsReading * 365)
+
+//TODO Save stats for each year into a typed object
 
 function printStats(year?: number) {
   console.log('Total Books Read: ' + BOOKS.length)

@@ -5,7 +5,7 @@
  * TODO Must-Read books (by tag)
  */
 
-export function getFirstAndLastYears(books: book[]): number[] {
+function getFirstAndLastYears(books: book[]): number[] {
   const years = new Set<number>()
   books.forEach((book) => {
     book.dates_read.forEach((date) => {
@@ -16,8 +16,9 @@ export function getFirstAndLastYears(books: book[]): number[] {
   return [yearsInOrder[0], yearsInOrder[yearsInOrder.length - 1]]
 }
 
-export function getAllYears(firstYear: number, lastYear: number): number[] {
-  let yearsReading: number[] = []
+export function getAllYears(books: book[]): number[] {
+  const [firstYear, lastYear] = getFirstAndLastYears(books)
+  const yearsReading: number[] = []
   for (let i = firstYear; i <= lastYear; i++) {
     yearsReading.push(i)
   }
