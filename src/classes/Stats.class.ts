@@ -1,6 +1,6 @@
 import YearStats from "./YearStats.class"
 
-export default class OverallStats implements stats{
+export default class Stats implements stats{
   constructor(books: book[]) {
     // Generate stats for each year
     this.allYearStats = {}
@@ -50,7 +50,7 @@ export default class OverallStats implements stats{
     return Math.round(this.totalPagesRead / (this.totalYearsReading * 365))
   }
 
-  printStats(year?: number) {
+  printStats(year?: string) {
     console.log('Total Years Reading:', this.totalYearsReading)
     console.log('Total Books Read:', this.totalBooksRead)
     console.log('Total Pages Read:', this.totalPagesRead)
@@ -70,7 +70,7 @@ export default class OverallStats implements stats{
       console.log(`Average Pages Per Day for Year ${year}:`, this.allYearStats[year].getAvgPagesPerDay())
       console.log(`Books Read in Year ${year}:`, this.allYearStats[year].bookTitles)
     } else {
-      console.warn('Year provided does not have any data.')
+      console.log('No data found for optional year stats.')
     }
   }
 }

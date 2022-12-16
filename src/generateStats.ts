@@ -7,7 +7,7 @@
  */
 
 import Books from '../ReadingList.json'
-import Stats from './classes/OverallStats.class'
+import Stats from './classes/Stats.class'
 
 const stats = new Stats(Books)
 

@@ -1,4 +1,4 @@
-import Stats from '../src/classes/OverallStats.class'
+import Stats from '../src/classes/Stats.class'
 import testData from './testData.json'
 
 const stats = new Stats(testData)
