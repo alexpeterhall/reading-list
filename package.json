@@ -11,7 +11,7 @@
     "types": "types"
   },
   "dependencies": {
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@types/jest": "^29.2.4",
