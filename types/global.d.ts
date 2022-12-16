@@ -28,15 +28,15 @@ interface yearStats {
 }
 
 interface allYearStats {
-  [year: number]: yearStats
+  [year: string]: yearStats
 }
 
 interface stats {
-  allYearStats: { [year: number]: yearStats }
+  allYearStats: allYearStats
   totalYearsReading: number
   totalBooksRead: number
   totalPagesRead: number
-  numberOfBooksReadByYear: { [year: number]: number }
+  numberOfBooksReadByYear: { [year: string]: number }
   getAvgPagesPerYear: () => number
   getAvgPagesPerMonth: () => number
   getAvgPagesPerWeek: () => number

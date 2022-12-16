@@ -11,5 +11,5 @@ import Stats from './classes/Stats.class'
 
 const stats = new Stats(Books)
 
-//* Provide optional number year for additional stats on a particular year.
-stats.printStats(2022)
+// Accept optional year argument at the command line for additional stats on a particular year.
+stats.printStats(process.argv[2])
