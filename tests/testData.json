@@ -1,0 +1,88 @@
+[{
+  "title": "The Clean Coder",
+  "tagline": "A Code of Conduct for Professional Programmers",
+  "author": "Robert C. Martin",
+  "year_published": 2011,
+  "edition": 1,
+  "ISBN10": "0137081073",
+  "ISBN13": "9780137081073",
+  "pages": 200,
+  "url": "https://www.amazon.com/dp/0132350882",
+  "genre": "Programming",
+  "tags": ["programming", "software engineering", "clean code", "professionalism"],
+  "dates_read": [{
+    "month": 4,
+    "year": 2022
+  }, {
+    "month": 3,
+    "year": 2022
+  }, {
+    "month": 2,
+    "year": 2022
+  }, {
+    "month": 1,
+    "year": 2022
+  }, {
+    "month": 12,
+    "year": 2021
+  }],
+  "stars": null,
+  "review": null
+}, {
+  "title": "Clean Code",
+  "tagline": "A Handbook of Agile Software Craftsmanship",
+  "author": "Robert C. Martin",
+  "year_published": 2009,
+  "edition": 1,
+  "ISBN10": "0132350882",
+  "ISBN13": "9780132350884",
+  "pages": 300,
+  "url": "https://www.amazon.com/dp/0132350882",
+  "genre": "Programming",
+  "tags": ["programming", "software engineering", "clean code"],
+  "dates_read": [{
+    "month": 10,
+    "year": 2022
+  }, {
+    "month": 10,
+    "year": 2021
+  }],
+  "stars": null,
+  "review": null
+}, {
+  "title": "The Pragmatic Programmer",
+  "tagline": "Your Journey to Mastery",
+  "author": ["David Thomas", "Andrew Hunt"],
+  "year_published": 2020,
+  "edition": 2,
+  "ISBN10": "0135957052",
+  "ISBN13": "9780135957059",
+  "pages": 300,
+  "url": "https://www.amazon.com/dp/0135957052",
+  "genre": "Programming",
+  "tags": ["programming", "software engineering"],
+  "dates_read": [{
+    "month": 11,
+    "year": 2022
+  }],
+  "stars": 5,
+  "review": "Very pragmatic."
+}, {
+  "title": "JavaScript: The Definitive Guide",
+  "tagline": "Master the World's Most-Used Programming Language",
+  "author": "David Flanagan",
+  "year_published": 2020,
+  "edition": 7,
+  "ISBN10": "1491952024",
+  "ISBN13": "9781491952023",
+  "pages": 700,
+  "url": "https://www.amazon.com/dp/1491952024",
+  "genre": "Programming",
+  "tags": ["javascript", "programming", "software engineering", "web development"],
+  "dates_read": [{
+    "month": 1,
+    "year": 2021
+  }],
+  "stars": null,
+  "review": null
+}]
