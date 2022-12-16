@@ -1,4 +1,4 @@
-export class YearStats implements yearStats{
+export default class YearStats implements yearStats{
   pagesRead = 0
   numberOfBooksRead = 0
   bookTitles = new Set<string>()
