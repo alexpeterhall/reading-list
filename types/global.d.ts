@@ -31,7 +31,8 @@ interface allYearStats {
   [year: number]: yearStats
 }
 
-interface overallStats {
+interface stats {
+  allYearStats: { [year: number]: yearStats }
   totalYearsReading: number
   totalBooksRead: number
   totalPagesRead: number
@@ -40,4 +41,5 @@ interface overallStats {
   getAvgPagesPerMonth: () => number
   getAvgPagesPerWeek: () => number
   getAvgPagesPerDay: () => number
+  printStats: () => void
 }
