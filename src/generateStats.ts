@@ -18,17 +18,20 @@ function printStats(year?: number) {
   console.log('Total Years Reading:', overallStats.totalYearsReading)
   console.log('Total Books Read:', overallStats.totalBooksRead)
   console.log('Total Pages Read:', overallStats.totalPagesRead)
-  console.log('Average Pages Per Year:', overallStats.getAvgPagesPerYear)
-  console.log('Average Pages Per Week:', overallStats.getAvgPagesPerWeek)
-  console.log('Average Pages Per Day:', overallStats.getAvgPagesPerDay)
+  console.log('Average Pages Per Year:', overallStats.getAvgPagesPerYear())
+  console.log('Average Pages Per Month:', overallStats.getAvgPagesPerMonth())
+  console.log('Average Pages Per Week:', overallStats.getAvgPagesPerWeek())
+  console.log('Average Pages Per Day:', overallStats.getAvgPagesPerDay())
   console.log('Number of Books Read by Year:', overallStats.numberOfBooksReadByYear)
 
   // If optional year is provided and there is data for that year, print the yearly stats.
   if (year && allStatsByYear[year]) {
     const totalPagesForYear = allStatsByYear[year].pagesRead
     console.log(`Total Pages Read for Year ${year}:`, totalPagesForYear)
-    console.log(`Average Pages Per Week for Year ${year}:`, Math.round(totalPagesForYear / 52))
-    console.log(`Average Pages Per Day for Year ${year}:`, Math.round(totalPagesForYear / 365))
+    console.log(`Total Books Read for Year ${year}:`, allStatsByYear[year].numberOfBooksRead)
+    console.log(`Average Pages Per Month for Year ${year}:`, allStatsByYear[year].getAvgPagesPerMonth())
+    console.log(`Average Pages Per Week for Year ${year}:`, allStatsByYear[year].getAvgPagesPerWeek())
+    console.log(`Average Pages Per Day for Year ${year}:`, allStatsByYear[year].getAvgPagesPerDay())
     console.log(`Books Read in Year ${year}:`, allStatsByYear[year].bookTitles)
   } else {
     console.warn('Year provided does not have any data.')
@@ -36,4 +39,4 @@ function printStats(year?: number) {
 }
 
 //* Provide optional number year for additional stats on a particular year.
-printStats()
+printStats(2022)
