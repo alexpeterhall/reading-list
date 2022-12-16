@@ -1,73 +1,45 @@
 /**
  * * Copyright 2022 Alex Hall - https://alexpeterhall.com
  * TODO Top (arg) longest books
+ * TODO Most read authors
  * TODO Top 10 most read books
  * TODO Must-Read books (by tag)
  */
 
-export function getTotalPagesRead(books: book[]): number {
-  let totalPages = 0
+class YearStats implements yearStats{
+  pagesRead = 0
+  numberOfBooksRead = 0
+  bookTitles = new Set<string>()
+
+  getAvgPagesPerWeek() {
+    return (this.pagesRead / 52).toFixed(2)
+  }
+
+  getAvgPagesPerDay() {
+    return (this.pagesRead / 365).toFixed(2)
+  }
+}
+
+export function getStatsByYear(books: book[]) { 
+  const allYearStats: allYearStats = {}
+
   books.forEach((book) => {
     book.dates_read.forEach((date) => {
-      if (date?.year != null) totalPages += book.pages
-    })
-  })
-  return totalPages
-}
+      if (date?.year != null) { 
 
-export function getPagesReadByYear(books: book[], year: number): number {
-  let totalPagesForYear = 0
-  books.forEach((book) => {
-    book.dates_read.forEach((date) => {
-      if (date?.year != null && date.year === year) totalPagesForYear += book.pages
-    })
-  })
-  return totalPagesForYear
-}
-
-export function getBooksReadByYear(books: book[], year: number): string[] {
-  let booksReadInYear: string[] = []
-  books.forEach((book) => {
-    for (const date of book.dates_read) {
-      if (date?.year === year) {
-        // TODO Handle multiple authors (string array)
-        if (book.tagline) booksReadInYear.push(`${book.title} - ${book.tagline} by ${book.author}`)
-        else booksReadInYear.push(`${book.title} by ${book.author}`)
-        break
-      }
-    }
-    })
-  return booksReadInYear
-}
-
-// Returns an object containing "year":"number of books read" properties for every year a book was read
-export function getNumberOfBooksReadByYear(books: book[]) {
-  const numberOfBooksReadByYear = new Map<number, number>()
-  books.forEach((book) => {
-      book.dates_read.forEach((date) => {
-        if (date?.year != null) {
-          if (numberOfBooksReadByYear.get(date.year) != undefined) {
-            let currentCount = numberOfBooksReadByYear.get(date.year)
-            //@ts-ignore
-            numberOfBooksReadByYear.set(date.year, currentCount += 1)
-          } else {
-            numberOfBooksReadByYear.set(date.year, 1)
-          }
+        if (!allYearStats.hasOwnProperty(date.year)) {
+          Object.defineProperty(allYearStats, date.year, { value: new YearStats(), enumerable: true })
         }
-      })
-    })
-    
-    // Fill in any gap years with 0
-    const sortedYears = []
-    for (const key of numberOfBooksReadByYear.keys()) {
-      sortedYears.push(key)
-    }
-    sortedYears.sort((a, b) => a - b)
-    for (let i = 0; i < sortedYears.length-1; i++) {
-      if (sortedYears[i + 1] - sortedYears[i] !== 1) {
-        numberOfBooksReadByYear.set(sortedYears[i] + 1, 0)
+
+        allYearStats[date.year].pagesRead += book.pages
+        allYearStats[date.year].numberOfBooksRead += 1
+        allYearStats[date.year].bookTitles.add(
+          book.tagline ? `${book.title} - ${book.tagline} by ${book.author}` : `${book.title} by ${book.author}`
+        )
+
       }
-    }
+    })
+  })
   
-  return Object.fromEntries(numberOfBooksReadByYear)
+  return allYearStats
 }

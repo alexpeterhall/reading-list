@@ -1,35 +1,38 @@
-import * as BookStats from './scripts/BookStats'
-import READING_LIST from './ReadingList.json'
-const BOOKS: book[] = READING_LIST,
-  numberOfBooksReadByYear = BookStats.getNumberOfBooksReadByYear(BOOKS),
-  totalPagesRead = BookStats.getTotalPagesRead(BOOKS),
-  totalYearsReading = Object.keys(numberOfBooksReadByYear).length
-  
-//TODO Save stats for each year into a typed object
+import { getStatsByYear } from './scripts/BookStats'
+import Books from './ReadingList.json'
+
+const allStatsByYear = getStatsByYear(Books)
+const totalYearsReading = Object.keys(allStatsByYear).length
+const numberOfBooksReadByYear = {}
+let totalBooksRead = 0
+let totalPagesRead = 0
+
+for (const [year, stats] of Object.entries(allStatsByYear)) {
+  Object.defineProperty(numberOfBooksReadByYear, year, { value: stats.numberOfBooksRead, enumerable: true })
+  totalBooksRead += stats.numberOfBooksRead
+  totalPagesRead += stats.pagesRead
+}
 
 function printStats(year?: number) {
-  console.log(`Total Books Read: ${BOOKS.length}`)
-  console.log(`Total Years Reading: ${totalYearsReading}`)
-  console.log(`Total Pages Read: ${totalPagesRead}`)
-  console.log(`Average Pages Per Year: ${(totalPagesRead / totalYearsReading).toFixed(2)}`)
-  console.log(`Average Pages Per Week: ${(totalPagesRead / (totalYearsReading * 52)).toFixed(2)}`)
-  console.log(`Average Pages Per Day: ${(totalPagesRead / (totalYearsReading * 365)).toFixed(2)}`)
-  console.log('Number of Books Read by Year:')
-  // Prints the object because it looks better than a concatenated string in console.
-  console.log(numberOfBooksReadByYear)
-  // If optional year is provided and there is data for that year, print the yearly stats.
-  if (year && numberOfBooksReadByYear[year]) {
-      const totalPagesForYear = BookStats.getPagesReadByYear(BOOKS, year)
-      console.log(`Total Pages Read for Year ${year}: ${totalPagesForYear}`)
-      console.log(`Average Pages Per Week for Year ${year}: ${(totalPagesForYear / 52).toFixed(2)}`)
-      console.log(`Average Pages Per Day for Year ${year}: ${(totalPagesForYear / 365).toFixed(2)}`)
-      console.log(`Books Read in Year ${year}:`)
-      // Prints the array because it looks better than a concatenated string in console.
-      console.log(BookStats.getBooksReadByYear(BOOKS, year))
-    } else {
-      console.warn('Year provided does not have any data.')
-    }
-  }
+  console.log('Total Books Read:', totalBooksRead)
+  console.log('Total Years Reading:', totalYearsReading)
+  console.log('Total Pages Read:', totalPagesRead)
+  console.log('Average Pages Per Year:', Math.round(totalPagesRead / totalYearsReading))
+  console.log('Average Pages Per Week:', Math.round(totalPagesRead / (totalYearsReading * 52)))
+  console.log('Average Pages Per Day:', Math.round(totalPagesRead / (totalYearsReading * 365)))
+  console.log('Number of Books Read by Year:', numberOfBooksReadByYear)
 
-// Provide optional number year for additional stats on a particular year.
+  // If optional year is provided and there is data for that year, print the yearly stats.
+  if (year && allStatsByYear[year]) {
+    const totalPagesForYear = allStatsByYear[year].pagesRead
+    console.log(`Total Pages Read for Year ${year}:`, totalPagesForYear)
+    console.log(`Average Pages Per Week for Year ${year}:`, Math.round(totalPagesForYear / 52))
+    console.log(`Average Pages Per Day for Year ${year}:`, Math.round(totalPagesForYear / 365))
+    console.log(`Books Read in Year ${year}:`, allStatsByYear[year].bookTitles)
+  } else {
+    console.warn('Year provided does not have any data.')
+  }
+}
+
+//* Provide optional number year for additional stats on a particular year.
 printStats(2022)

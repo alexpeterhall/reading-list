@@ -17,3 +17,15 @@ interface book {
   stars?: number | null
   review?: string | null
 }
+
+interface yearStats {
+  pagesRead: number
+  numberOfBooksRead: number
+  bookTitles: Set<string>
+  getAvgPagesPerWeek: () => {}
+  getAvgPagesPerDay: () => {}
+}
+
+interface allYearStats {
+  [year: number]: yearStats
+}
