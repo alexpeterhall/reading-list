@@ -23,7 +23,7 @@
   "scripts": {
     "build": "tsc",
     "test": "tsc && jest",
-    "stats": "tsc && node ./printStats.js"
+    "stats": "tsc && node ./dist/src/generateStats.js"
   },
   "repository": {
     "type": "git",
