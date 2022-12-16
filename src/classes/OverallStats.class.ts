@@ -17,6 +17,10 @@ export default class OverallStats implements overallStats{
     return Math.round(this.totalPagesRead / this.totalYearsReading)
   }
 
+  getAvgPagesPerMonth() {
+    return Math.round(this.totalPagesRead / (this.totalYearsReading * 12))
+  }
+
   getAvgPagesPerWeek() {
     return Math.round(this.totalPagesRead / (this.totalYearsReading * 52))
   }

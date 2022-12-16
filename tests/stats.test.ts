@@ -77,6 +77,9 @@ describe('Overall Stats', () => {
   test('Returns average number of pages read per week', () => {
     expect(overallStats.getAvgPagesPerWeek()).toBe(25)
   })
+  test('Returns average number of pages read per month', () => {
+    expect(overallStats.getAvgPagesPerMonth()).toBe(108)
+  })
   test('Returns average number of pages read per year', () => {
     expect(overallStats.getAvgPagesPerYear()).toBe(1300)
   })

@@ -37,6 +37,7 @@ interface overallStats {
   totalPagesRead: number
   numberOfBooksReadByYear: { [year: number]: number }
   getAvgPagesPerYear: () => number
+  getAvgPagesPerMonth: () => number
   getAvgPagesPerWeek: () => number
   getAvgPagesPerDay: () => number
 }
