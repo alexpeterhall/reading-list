@@ -22,10 +22,20 @@ interface yearStats {
   pagesRead: number
   numberOfBooksRead: number
   bookTitles: Set<string>
-  getAvgPagesPerWeek: () => {}
-  getAvgPagesPerDay: () => {}
+  getAvgPagesPerWeek: () => number
+  getAvgPagesPerDay: () => number
 }
 
 interface allYearStats {
   [year: number]: yearStats
+}
+
+interface overallStats {
+  totalYearsReading: number
+  totalBooksRead: number
+  totalPagesRead: number
+  numberOfBooksReadByYear: { [year: number]: number }
+  getAvgPagesPerYear: () => number
+  getAvgPagesPerWeek: () => number
+  getAvgPagesPerDay: () => number
 }
