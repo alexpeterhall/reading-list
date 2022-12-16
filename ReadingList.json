@@ -1,4 +1,22 @@
 [{
+    "title": "The Laws of Human Nature",
+    "tagline": null,
+    "author": "Robert Greene",
+    "year_published": 2018,
+    "edition": 1,
+    "ISBN10": "014311137X",
+    "ISBN13": "9780143111375",
+    "pages": 586,
+    "url": "https://www.amazon.com/dp/014311137X",
+    "genre": "Psychology",
+    "tags": ["psychology", "strategy", "wisdom"],
+    "dates_read": [{
+      "month": 12,
+      "year": 2022
+    }],
+    "stars": null,
+    "review": null
+  }, {
     "title": "Homo Deus",
     "tagline": "A Brief History of Tomorrow",
     "author": "Yuval Noah Harari",
