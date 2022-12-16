@@ -3,6 +3,10 @@ export class YearStats implements yearStats{
   numberOfBooksRead = 0
   bookTitles = new Set<string>()
 
+  getAvgPagesPerMonth() {
+    return Math.round(this.pagesRead / 12)
+  }
+
   getAvgPagesPerWeek() {
     return Math.round(this.pagesRead / 52)
   }

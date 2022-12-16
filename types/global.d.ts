@@ -22,6 +22,7 @@ interface yearStats {
   pagesRead: number
   numberOfBooksRead: number
   bookTitles: Set<string>
+  getAvgPagesPerMonth: () => number
   getAvgPagesPerWeek: () => number
   getAvgPagesPerDay: () => number
 }
