@@ -18,13 +18,13 @@ describe('Stats for year 2021', () => {
     ]))
   })
   test('Returns average number of pages per month read in year 2021', () => {
-    expect(stats.allYearStats[2021].getAvgPagesPerMonth()).toBe(100)
+    expect(stats.allYearStats[2021].getAvgPagesBy('months')).toBe(100)
   })
   test('Returns average number of pages per week read in year 2021', () => {
-    expect(stats.allYearStats[2021].getAvgPagesPerWeek()).toBe(23)
+    expect(stats.allYearStats[2021].getAvgPagesBy('weeks')).toBe(23)
   })
   test('Returns average number of pages per day read in year 2021', () => {
-    expect(stats.allYearStats[2021].getAvgPagesPerDay()).toBe(3)
+    expect(stats.allYearStats[2021].getAvgPagesBy('days')).toBe(3)
   })
 })
 
@@ -43,13 +43,13 @@ describe('Stats for year 2022', () => {
     ]))
   })
   test('Returns average number of pages per month read in year 2022', () => {
-    expect(stats.allYearStats[2022].getAvgPagesPerMonth()).toBe(117)
+    expect(stats.allYearStats[2022].getAvgPagesBy('months')).toBe(117)
   })
   test('Returns average number of pages per week read in year 2022', () => {
-    expect(stats.allYearStats[2022].getAvgPagesPerWeek()).toBe(27)
+    expect(stats.allYearStats[2022].getAvgPagesBy('weeks')).toBe(27)
   })
   test('Returns average number of pages per day read in year 2022', () => {
-    expect(stats.allYearStats[2022].getAvgPagesPerDay()).toBe(4)
+    expect(stats.allYearStats[2022].getAvgPagesBy('days')).toBe(4)
   })
 })
 
@@ -70,15 +70,15 @@ describe('Overall Stats', () => {
     })
   })
   test('Returns average number of pages read per day', () => {
-    expect(stats.getAvgPagesPerDay()).toBe(4)
+    expect(stats.getAvgPagesBy('days')).toBe(4)
   })
   test('Returns average number of pages read per week', () => {
-    expect(stats.getAvgPagesPerWeek()).toBe(25)
+    expect(stats.getAvgPagesBy('weeks')).toBe(25)
   })
   test('Returns average number of pages read per month', () => {
-    expect(stats.getAvgPagesPerMonth()).toBe(108)
+    expect(stats.getAvgPagesBy('months')).toBe(108)
   })
   test('Returns average number of pages read per year', () => {
-    expect(stats.getAvgPagesPerYear()).toBe(1300)
+    expect(stats.getAvgPagesBy('year')).toBe(1300)
   })
 })

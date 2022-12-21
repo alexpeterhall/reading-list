@@ -22,9 +22,7 @@ interface yearStats {
   pagesRead: number
   numberOfBooksRead: number
   bookTitles: Set<string>
-  getAvgPagesPerMonth: () => number
-  getAvgPagesPerWeek: () => number
-  getAvgPagesPerDay: () => number
+  getAvgPagesBy: (interval: timeInterval) => number
 }
 
 interface allYearStats {
@@ -37,9 +35,9 @@ interface stats {
   totalBooksRead: number
   totalPagesRead: number
   numberOfBooksReadByYear: { [year: string]: number }
-  getAvgPagesPerYear: () => number
-  getAvgPagesPerMonth: () => number
-  getAvgPagesPerWeek: () => number
-  getAvgPagesPerDay: () => number
+  getAvgPagesBy: (interval: timeInterval) => number
   printStats: () => void
 }
+
+const timeIntervals = { days: 365, weeks: 52, months: 12, year: 1 } as const
+type timeInterval = keyof typeof timeIntervals

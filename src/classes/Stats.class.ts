@@ -34,30 +34,19 @@ export default class Stats implements stats{
   totalBooksRead = 0
   numberOfBooksReadByYear = {}
 
-  getAvgPagesPerYear() {
-    return Math.round(this.totalPagesRead / this.totalYearsReading)
-  }
-
-  getAvgPagesPerMonth() {
-    return Math.round(this.totalPagesRead / (this.totalYearsReading * 12))
-  }
-
-  getAvgPagesPerWeek() {
-    return Math.round(this.totalPagesRead / (this.totalYearsReading * 52))
-  }
-
-  getAvgPagesPerDay() {
-    return Math.round(this.totalPagesRead / (this.totalYearsReading * 365))
+  getAvgPagesBy(interval: timeInterval): number {
+    const timeInterval = { days: 365, weeks: 52, months: 12, year: 1 } as const
+    return Math.round(this.totalPagesRead / (this.totalYearsReading * timeInterval[interval]))
   }
 
   printStats(year?: string) {
     console.log('Total Years Reading:', this.totalYearsReading)
     console.log('Total Books Read:', this.totalBooksRead)
     console.log('Total Pages Read:', this.totalPagesRead)
-    console.log('Average Pages Per Year:', this.getAvgPagesPerYear())
-    console.log('Average Pages Per Month:', this.getAvgPagesPerMonth())
-    console.log('Average Pages Per Week:', this.getAvgPagesPerWeek())
-    console.log('Average Pages Per Day:', this.getAvgPagesPerDay())
+    console.log('Average Pages per Year:', this.getAvgPagesBy('year'))
+    console.log('Average Pages per Month:', this.getAvgPagesBy('months'))
+    console.log('Average Pages per Week:', this.getAvgPagesBy('weeks'))
+    console.log('Average Pages per Day:', this.getAvgPagesBy('days'))
     console.log('Number of Books Read by Year:', this.numberOfBooksReadByYear)
 
     // If optional year is provided and there is data for that year, print the yearly stats.
@@ -65,9 +54,9 @@ export default class Stats implements stats{
       const totalPagesForYear = this.allYearStats[year].pagesRead
       console.log(`Total Pages Read for Year ${year}:`, totalPagesForYear)
       console.log(`Total Books Read for Year ${year}:`, this.allYearStats[year].numberOfBooksRead)
-      console.log(`Average Pages Per Month for Year ${year}:`, this.allYearStats[year].getAvgPagesPerMonth())
-      console.log(`Average Pages Per Week for Year ${year}:`, this.allYearStats[year].getAvgPagesPerWeek())
-      console.log(`Average Pages Per Day for Year ${year}:`, this.allYearStats[year].getAvgPagesPerDay())
+      console.log(`Average Pages per Month for Year ${year}:`, this.allYearStats[year].getAvgPagesBy('months'))
+      console.log(`Average Pages per Week for Year ${year}:`, this.allYearStats[year].getAvgPagesBy('weeks'))
+      console.log(`Average Pages per Day for Year ${year}:`, this.allYearStats[year].getAvgPagesBy('days'))
       console.log(`Books Read in Year ${year}:`, this.allYearStats[year].bookTitles)
     } else {
       console.log('No data found for optional year stats.')
