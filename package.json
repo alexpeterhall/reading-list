@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aroxx/reading-list.git"
+    "url": "git+https://github.com/alexpeterhall/reading-list.git"
   },
   "bugs": {
-    "url": "https://github.com/aroxx/reading-list/issues"
+    "url": "https://github.com/alexpeterhall/reading-list/issues"
   },
-  "homepage": "https://github.com/aroxx/reading-list#readme"
+  "homepage": "https://github.com/alexpeterhall/reading-list#readme"
 }
