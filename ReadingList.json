@@ -257,6 +257,9 @@
   "genre": "Buddhism",
   "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
   "dates_read": [{
+    "month": 12,
+    "year": 2022
+  }, {
     "month": 6,
     "year": 2022
   }, {
@@ -317,6 +320,9 @@
   "genre": "Philosophy",
   "tags": ["self-help", "philosophy", "strategy", "wisdom"],
   "dates_read": [{
+    "month": 12,
+    "year": 2022
+  }, {
     "month": 11,
     "year": 2021
   }],
@@ -683,14 +689,12 @@
   "genre": "Self-help",
   "tags": ["self-help", "meditation", "mindfulness", "buddhism", "philosophy"],
   "dates_read": [{
-      "month": 3,
-      "year": 2022
-    },
-    {
-      "month": 12,
-      "year": 2020
-    }
-  ],
+    "month": 3,
+    "year": 2022
+  }, {
+    "month": 12,
+    "year": 2020
+  }],
   "stars": 5,
   "review": null
 
@@ -761,17 +765,16 @@
   "url": "https://www.amazon.com/dp/1936891034",
   "genre": "Self-Help",
   "tags": ["must-dates_read", "motivation"],
-  "dates_read": [
-
-    {
-      "month": 10,
-      "year": 2020
-    },
-    {
-      "month": null,
-      "year": 2021
-    }
-  ],
+  "dates_read": [{
+    "month": 12,
+    "year": 2022
+  }, {
+    "month": null,
+    "year": 2021
+  }, {
+    "month": 10,
+    "year": 2020
+  }],
   "stars": 5,
   "review": null
 
@@ -787,25 +790,22 @@
   "url": "https://www.amazon.com/gp/product/1936891026",
   "genre": "Self-Help",
   "tags": ["must-dates_read", "motivation"],
-  "dates_read": [
-
-    {
-      "month": 10,
-      "year": 2020
-    },
-    {
-      "month": 10,
-      "year": 2021
-    },
-    {
-      "month": null,
-      "year": 2021
-    },
-    {
-      "month": 2,
-      "year": 2021
-    }
-  ],
+  "dates_read": [{
+    "month": 12,
+    "year": 2022
+  }, {
+    "month": 10,
+    "year": 2021
+  }, {
+    "month": null,
+    "year": 2021
+  }, {
+    "month": 2,
+    "year": 2021
+  }, {
+    "month": 10,
+    "year": 2020
+  }],
   "stars": null,
   "review": null
 }, {
@@ -826,7 +826,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "Peaceful Parent, Happy Kids",
   "tagline": "How to Stop Yelling and Start Connecting",
@@ -857,18 +856,13 @@
   "url": "https://www.amazon.com/dp/193689100X/",
   "genre": "Motivation",
   "tags": ["motivation", "war"],
-  "dates_read": [
-
-    {
-      "month": 8,
-      "year": 2020
-    },
-    {
-      "month": 2,
-      "year": 2021
-    }
-
-  ],
+  "dates_read": [{
+    "month": 8,
+    "year": 2020
+  }, {
+    "month": 2,
+    "year": 2021
+  }],
   "stars": null,
   "review": null
 }, {
@@ -890,7 +884,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "Stillness Is the Key",
   "tagline": null,
@@ -970,7 +963,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "The Diamond Age",
   "tagline": "Or, a Young Lady's Illustrated Primer",
@@ -1009,7 +1001,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "Total Control",
   "tagline": "High Performance Street Riding Techniques",
@@ -1028,7 +1019,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "A Wrinkle In Time",
   "tagline": null,
@@ -1234,7 +1224,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "Traffic",
   "tagline": "Why We Drive the Way We Do (and What It Says About Us)",
@@ -1386,7 +1375,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "Seveneves",
   "tagline": null,
@@ -1420,6 +1408,12 @@
   "genre": "Philosophy",
   "tags": ["stoicism", "philosophy"],
   "dates_read": [{
+    "month": 12,
+    "year": 2022
+  }, {
+    "month": 12,
+    "year": 2021
+  }, {
     "month": null,
     "year": 2018
   }],
@@ -1463,7 +1457,6 @@
   }],
   "stars": 5,
   "review": null
-
 }, {
   "title": "100 Deadly Skills",
   "tagline": "The SEAL Operative's Guide to Eluding Pursuers, Evading Capture, and Surviving Any Dangerous Situation",
