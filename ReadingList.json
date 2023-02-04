@@ -1,4 +1,40 @@
 [{
+  "title": "Starry Messenger",
+  "tagline": "Cosmic Perspectives on Civilization",
+  "author": "Neil deGrasse Tyson",
+  "year_published": 2022,
+  "edition": 1,
+  "ISBN10": "1250861500",
+  "ISBN13": "9781250861504",
+  "pages": 219,
+  "url": "https://www.amazon.com/dp/1250861500",
+  "genre": "Science",
+  "tags": ["science", "civilization", "space"],
+  "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }],
+  "stars": 5,
+  "review": null
+}, {
+  "title": "Grokking Algorithms",
+  "tagline": "An Illustrated Guide for Programmers and Other Curious People",
+  "author": "Aditya Y. Bhargava",
+  "year_published": 2016,
+  "edition": 1,
+  "ISBN10": "1617292230",
+  "ISBN13": "9781617292231",
+  "pages": 233,
+  "url": "https://www.amazon.com/dp/1617292230",
+  "genre": "Programming",
+  "tags": ["data-structures", "algorithms", "programming", "software engineering"],
+  "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }],
+  "stars": 5,
+  "review": null
+}, {
   "title": "The Laws of Human Nature",
   "tagline": null,
   "author": "Robert Greene",
@@ -203,6 +239,9 @@
   "genre": "Philosophy",
   "tags": ["philosophy", "wisdom"],
   "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }, {
     "month": 2,
     "year": 2022
   }],
@@ -257,7 +296,10 @@
   "genre": "Buddhism",
   "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
   "dates_read": [{
-    "month": 12,
+    "month": 1,
+    "year": 2023
+  }, {
+    "month": 11,
     "year": 2022
   }, {
     "month": 6,
@@ -302,6 +344,9 @@
   "genre": "Programming",
   "tags": ["programming", "software engineering", "clean code", "professionalism"],
   "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }, {
     "month": 1,
     "year": 2022
   }],
@@ -359,6 +404,9 @@
   "genre": "Self-Help",
   "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
   "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }, {
     "month": 11,
     "year": 2022
   }, {
@@ -392,6 +440,9 @@
   "genre": "Self-Help",
   "tags": ["self-help", "philosophy"],
   "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }, {
     "month": 12,
     "year": 2021
   }],
@@ -410,6 +461,9 @@
   "genre": "Self-Help",
   "tags": ["self-help", "philosophy"],
   "dates_read": [{
+    "month": 1,
+    "year": 2023
+  }, {
     "month": 11,
     "year": 2021
   }, {
@@ -429,7 +483,7 @@
   "pages": 306,
   "url": "https://www.amazon.com/dp/0135957052",
   "genre": "Programming",
-  "tags": ["programming", "software engineering"],
+  "tags": ["programming", "software engineering", "professionalism"],
   "dates_read": [{
     "month": 11,
     "year": 2021
