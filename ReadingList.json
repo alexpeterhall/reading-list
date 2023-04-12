@@ -1,4 +1,22 @@
 [{
+  "title": "Pragmatic Thinking and Learning",
+  "tagline": "Refactor Your Wetware",
+  "author": "Andy Hunt",
+  "year_published": 2008,
+  "edition": 1,
+  "ISBN10": "1934356050",
+  "ISBN13": "9781934356050",
+  "pages": 218,
+  "url": "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/",
+  "genre": "Learning",
+  "tags": ["learning", "software engineering"],
+  "dates_read": [{
+    "month": 3,
+    "year": 2023
+  }],
+  "stars": 5,
+  "review": null
+}, {
   "title": "Starry Messenger",
   "tagline": "Cosmic Perspectives on Civilization",
   "author": "Neil deGrasse Tyson",
@@ -29,6 +47,9 @@
   "genre": "Programming",
   "tags": ["data-structures", "algorithms", "programming", "software engineering"],
   "dates_read": [{
+    "month": 3,
+    "year": 2023
+  }, {
     "month": 1,
     "year": 2023
   }],
@@ -191,6 +212,9 @@
   "genre": "Buddhism",
   "tags": ["buddhism", "mindfulness", "zen", "meditation"],
   "dates_read": [{
+    "month": 4,
+    "year": 2023
+  }, {
     "month": 12,
     "year": 2022
   }, {
@@ -215,6 +239,9 @@
   "genre": "Buddhism",
   "tags": ["buddhism", "mindfulness", "self-help", "meditation"],
   "dates_read": [{
+    "month": 2,
+    "year": 2023
+  }, {
     "month": 11,
     "year": 2022
   }, {
@@ -296,6 +323,9 @@
   "genre": "Buddhism",
   "tags": ["buddhism", "mindfulness", "self-help", "meditation", "religion", "psychology"],
   "dates_read": [{
+    "month": 2,
+    "year": 2023
+  }, {
     "month": 1,
     "year": 2023
   }, {
@@ -404,6 +434,9 @@
   "genre": "Self-Help",
   "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
   "dates_read": [{
+    "month": 2,
+    "year": 2023
+  }, {
     "month": 1,
     "year": 2023
   }, {
@@ -740,7 +773,7 @@
   "ASIN": "1401307787",
   "pages": 304,
   "url": "https://www.amazon.com/dp/1401307787/",
-  "genre": "Self-help",
+  "genre": "Self-Help",
   "tags": ["self-help", "meditation", "mindfulness", "buddhism", "philosophy"],
   "dates_read": [{
     "month": 3,
