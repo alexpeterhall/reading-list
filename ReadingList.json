@@ -1,4 +1,22 @@
 [{
+  "title": "Welcoming the Unwelcome",
+  "tagline": "Wholehearted Living in a Brokenhearted World",
+  "author": ["Pema Chodron"],
+  "year_published": 2019,
+  "edition": 1,
+  "ISBN10": "1611808685",
+  "ISBN13": "9781611808681",
+  "pages": 164,
+  "url": "https://www.amazon.com/dp/1611808685",
+  "genre": "Self-Help",
+  "tags": ["buddhism", "mindfulness", "self-help", "philosophy", "spirituality"],
+  "dates_read": [{
+    "month": 6,
+    "year": 2023
+  }],
+  "stars": null,
+  "review": null
+}, {
   "title": "Pragmatic Thinking and Learning",
   "tagline": "Refactor Your Wetware",
   "author": "Andy Hunt",
@@ -432,8 +450,11 @@
   "pages": 146,
   "url": "https://www.amazon.com/dp/1611803438",
   "genre": "Self-Help",
-  "tags": ["buddhism", "mindfulness", "self-help", "philosophy"],
+  "tags": ["buddhism", "mindfulness", "self-help", "philosophy", "spirituality"],
   "dates_read": [{
+    "month": 5,
+    "year": 2023
+  }, {
     "month": 5,
     "year": 2023
   }, {
